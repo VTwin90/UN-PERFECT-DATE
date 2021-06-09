@@ -55,7 +55,8 @@
 * As a **site owner** I want to provide users with an interactive game to play.
 * As a **site owner** I want to create an enjoyable, interactive game that makes the user want to stay and play again.
 * As a **site owner** I want to create a game that makes the user want to return to the website.
-* As a **site owner** I want users to be able to contact the developer.
+* As a **site owner** I want to make a game that I would enjoy playing.
+* As a **site owner** I want users to be able to contact the developer for collaboration, queries, feedback and network.
 
 #### [Back to top](<#contents>)
 
