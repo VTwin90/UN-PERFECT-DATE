@@ -2,6 +2,32 @@
 
 ### **Project - Interactive Frontend Development - Code Institute.**
 
+## **Contents**
+***
+- [**User Experience (UX)**](<#user-experience-(ux)>)
+  - [Project Goals](<#project-goals>)
+  - [Importance and Feasibility chart](<#importance-and-feasibility-chart>)
+  - [User Stories](<#user-stories>)
+  - [Website Structure](<#website-structure>)
+  - [Design Choices from UXD](<#design-choices-from-uxd>)
+    - [Color Scheme](<#color-scheme>)
+    - [Images](<#images>)
+    - [Typography](<#typography>)
+  - [Wireframes](<#wireframes>)
+  - [Design Changes](<#design-changes>)
+
+- [**Features**](<#features>)
+  - [Existing Features](<#existing-features>)
+  - [Features left to implement](<#features-left-to-implement>)
+
+- [**Technologies**](<#technologies>)
+
+- [**Testing**](<#testing>)
+
+- [**Deployment**](<#deployment>)
+
+- [**Credits**](<#credits>)
+
 ## **User Experience** (UX)
 ***
 
