@@ -40,8 +40,22 @@
 ### **User stories**
 
 #### **First Time Visitor Goals**
+* As a **first time user** I want to be able to navigate through the whole site smoothly.
+* As a **first time user** I want to understand the purpose of the site upon loading it.
+* As a **first time user** I want to be able to easily play the game on any device and view content clearly.
+* As a **first time user** I want to easily be able to contact the developer for more information, feedback, issues or queries.
+* As a **first time user** I want to have instructions on how to play the game so that I can easily understand the rules.
+* As a **first time user** I want to be able to start a game when I am ready.
+* As a **first time user** I want a way to start a new game when the current game has ended. 
+* As a **first time user** I want to be able to access the games external social accounts.
+* As a **first time user** I want to be able to enjoy an interactive game that is fun and is replayable.
 
 #### **Site Owner Goals**
+* As a **site owner** I want to showcase the skills I have learnt in HTML, CSS and JavaScript.
+* As a **site owner** I want to provide users with an interactive game to play.
+* As a **site owner** I want to create an enjoyable, interactive game that makes the user want to stay and play again.
+* As a **site owner** I want to create a game that makes the user want to return to the website.
+* As a **site owner** I want users to be able to contact the developer.
 
 #### [Back to top](<#contents>)
 
