@@ -105,7 +105,25 @@ A deployed link to the website can be found **[here]()**.
 
 ### **Languages**
 
+* [HTML5](https://en.wikipedia.org/wiki/HTML5 "HTML5") - provides the content and structure for the game.
+* [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets "CSS3") - provides the styling.
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript) -provides the interactivity and functionality throughout the game.
+
 ### **Frameworks, Libraries & Programs**
+
+* [Bootstrap](https://getbootstrap.com/ "Bootstrap") - used to create the layout of the project.
+* [Figma](https://www.figma.com/ "Figma") - used to create the projects wireframes, designs and logo.
+* [Gitpod](https://www.gitpod.io/ "Gitpod") - used to develop the website.
+* [GitHub](https://github.com/ "GitHub") - used to host the project.
+* [Git](https://git-scm.com/) -used for version control.
+* [Git Pages](https://pages.github.com/) - used to deploy the live site. 
+* [Trello ](https://trello.com/ "Trello ") - used for time and project management.
+* [Ilovepdf](https://www.ilovepdf.com/compress_pdf "Ilovepdf") - used for compressing pdf files.
+* [TinyJPG](https://tinyjpg.com/) - used to reduce image file sizes. 
+* [Google Fonts](https://fonts.google.com/) - used for typography.
+* [Font Awesome](https://fontawesome.com/) - used for icons.
+* [FavIcon](https://favicon.io/) -used for compressing logo into favIcons.
+* [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools) -used to inspect page elements, test different CSS styles, debug issues and responsiveness.
 
 ## **Testing**
 ***
