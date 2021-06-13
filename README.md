@@ -146,6 +146,15 @@ The following commands were used for version control throughout the project:
 
 ### **Create a local clone**
 
+1. Open GitHub and navigate to repository **[here](https://github.com/VTwin90/-UN-PERFECT-DATE)**.
+2. Click the Code drop down menu. 
+3. Options: 
+* Download the ZIP file, unpack locally and open with IDE.  
+* Copy git URL from HTTPS dialogue box. 
+4. Open your chosen IDE and open terminal in a directory. 
+5. Use ```git clone``` command with the copied git URL after.
+6. Clone of the project is created locally on your machine.
+
 ### **Fork Project**
 
 #### [Back to top](<#contents>)
