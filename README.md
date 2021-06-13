@@ -144,6 +144,14 @@ The following commands were used for version control throughout the project:
 
 ### **Deployment to Github pages**
 
+1. Push project to GitHub. Navigate and log into the GitHub site.
+2. Go to repositories and select the one associated to this project: **[Milestone 1 Portfolio](https://github.com/VTwin90/-UN-PERFECT-DATE)**.
+3. On the main repository, click "Settings" and scroll to "Github Pages".
+4. Under "Source" select "Master Branch" and click "Save".
+5. Click on the link to go to the live deployed page.
+
+The live link for the site is here: **[]()**
+
 ### **Create a local clone**
 
 1. Open GitHub and navigate to repository **[here](https://github.com/VTwin90/-UN-PERFECT-DATE)**.
