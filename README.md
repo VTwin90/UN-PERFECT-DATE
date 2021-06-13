@@ -96,6 +96,25 @@ A deployed link to the website can be found **[here]()**.
 
 ### **Existing Features**
 
+Included in the **game** is:
+
+* **Head banner:** Which alerts the user that there are new stories and characters coming soon. 
+* **Characters:** A group of six avatars. Two which will be mainly used in this game, with some different emotions and positures. 
+* **Logo and developers name:** A logo telling the name of the game "(UN)PERFECT DATE" and who it is by.  
+* **Start a game button:** To begin the game.  
+* **How To Play button:** Where the user can click and a modal shows up explaining the way to interact with the game.
+* **Contact button:** Where the user can click and a modal pops up with a contact form and socials(leads to external sites). The user can then fill out the form with email and message query (with validation, “@” and “.” etc.) and submitted to contact the developer.
+* **Modal:** A modal that lets the user know they have been successful in sending the message.
+* **Text boxes:** To showcase the story and dialogue, and in some parts the name of a character.  
+* **Backgrounds:** Three images to give a scenery for the game as the user plays along. 
+* **Option buttons:** To give the user options and make use of their decision making skills. 
+* **Try Again button:** In the end there will be an option to try the game again for a different outcome.
+* **Hidden Score:** To add points as one goes along the story to be added for different endings. 
+* **Mobile/Text message interaction:** A mobile call/text message interactive part of the storyline comes up.
+* **Ending page:** Based on the hidden score there will be a couple of different endings based on the users choices, as well as a try again and contact button. 
+* **404 page:** A message telling the user they have accessed a page which does not exist. Including a button which is linked to index.html that prompts them to return to the site.
+
+
 ### **Features Left to Implement**
 
 #### [Back to top](<#contents>)
