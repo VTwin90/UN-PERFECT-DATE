@@ -86,6 +86,9 @@ A deployed link to the website can be found **[here]()**.
 #### [Back to top](<#contents>)
 
 ### **Wireframes**
+|Sketches|Wireframes & Designs|                        
+|:-----:|:----:|
+|[Sketches]()| [Wireframes & Designs](assets/images/readme/wireframes&designs.pdf)
 
 ### **Design changes**
 
