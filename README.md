@@ -1,7 +1,11 @@
 # **Milestone 2: (UN)PERFECT DATE**
 
 ### **Project - Interactive Frontend Development - Code Institute.**
+This is the second milestone project from CI with a focus on HTML, CSS and JavaScript. The project is a fun and interactive game, with a visual novel to showcase the developers learning and skills with JavaScript.  
 
+A deployed link to the website can be found **[here]()**.
+
+![Mockup](assets/images/mockup.png)
 ## **Contents**
 ***
 - [**User Experience (UX)**](<#user-experience-(ux)>)
