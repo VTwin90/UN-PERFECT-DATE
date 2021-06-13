@@ -134,6 +134,7 @@ A deployed link to the website can be found **[here]()**.
 ***
 
 ### Project Creation
+Navigate to the **[template](https://github.com/Code-Institute-Org/gitpod-full-template)** and click 'Use this template'. Put in Repository name ((UN)PERFECT DATE) and check the Include all branches checkbox. Then navigate to the new **[repository](https://github.com/VTwin90/-UN-PERFECT-DATE)**.
 
 ### **Deployment to Github pages**
 
