@@ -157,6 +157,10 @@ The following commands were used for version control throughout the project:
 
 ### **Fork Project**
 
+1. Navigate to the GitHub Repository you want to **[fork](https://github.com/VTwin90/-UN-PERFECT-DATE)**.
+2. On the top right of the page under the header, click the fork button.
+3. Creates a duplicate of the full project in your GitHub Repository.
+
 #### [Back to top](<#contents>)
 
 ## **Credits**
