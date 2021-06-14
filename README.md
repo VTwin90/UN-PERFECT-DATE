@@ -87,6 +87,8 @@ The general color scheme is different color shades of blue and white. With some 
 
 ### **Typography**
 
+To keep a consistent, playful and modern style, and for easy readability, the fonts used are Play(for logo and ending headlines), Montserrat (the general text and heading), and Sacramento for the developers name. These are taken from Google Fonts library. 
+
 #### [Back to top](<#contents>)
 
 ### **Wireframes**
