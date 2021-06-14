@@ -156,6 +156,7 @@ Included in the **game** is:
 * [Google Fonts](https://fonts.google.com/) - used for typography.
 * [Font Awesome](https://fontawesome.com/) - used for icons.
 * [FavIcon](https://favicon.io/) -used for compressing logo into favIcons.
+* [Pixton](https://app.pixton.com/) -used for creating characters.
 * [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools) -used to inspect page elements, test different CSS styles, debug issues and responsiveness.
 
 ## **Testing**
