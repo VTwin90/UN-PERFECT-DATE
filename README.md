@@ -40,6 +40,21 @@ The idea is to create a game that showcases the developers knowledge of HTML, CS
 
 ### **Importance and Feasibility chart**
 
+**Opportunity/Problem** | **Importance** | **Viability/Feasibility**
+| :--- | ---: | :---:
+A. Creation of a interactive and fun JavaScript game  | 5 | 5
+B. Game instructions | 5 | 5
+C. Game start button  | 5 | 5
+D. Try again button after game completion  | 5 | 5
+E. Creation of Contact button, form, response and sending email. | 5 | 4
+F. Head banner | 3 | 5
+G. Characters | 4 | 5
+H. Logo and developers name | 4 | 5
+I. Hidden Score | 3 | 4
+J. Mobile/Text message interaction | 2 | 4
+K. Ending page | 5 | 5
+L. Ending page | 2 | 4
+
 #### [Back to top](<#contents>)
 
 ### **User stories**
