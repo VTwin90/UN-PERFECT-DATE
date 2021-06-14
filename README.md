@@ -231,6 +231,16 @@ The live link for the site is here: **[]()**
 ### **Code**
 
 ### **Media & Content**
+**Characters:** Created with Pixton avatar generator and characterised by developer. 
+* https://app.pixton.com/  
+<br>
+
+**Background images:** Taken from Unsplash. 
+* https://unsplash.com/photos/8oc7EtRZEL8
+* https://unsplash.com/photos/wz8dawTTRJo
+* https://unsplash.com/photos/H7xTpvBjJS4
+
+Storyline, idea and all other content are owned by the site owner.
 
 ### **Acknowledgments**
 
