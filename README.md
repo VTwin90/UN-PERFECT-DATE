@@ -91,6 +91,10 @@ L. 404 page| 2 | 4
 ### **Design Choices from UXD**
 ***
 
+The style is based on a minimalistic, fun, readable, contrasting design for easy flow and navigation, as well as maintaining a consistency to allow the user to easily familiarise themselves with the game efficiently and intuitively.
+
+The theme is a playful visual novel game, with animated characters of the game with real life backgrounds to add to the contrast. With an option to try the game again for a different ending and character. This game is meant to be played multiply times, and in the future add more content, characters and storylines. 
+
 #### [Back to top](<#contents>)
 
 ### **Color Scheme**
