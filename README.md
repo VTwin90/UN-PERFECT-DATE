@@ -53,7 +53,7 @@ H. Logo and developers name | 4 | 5
 I. Hidden Score | 3 | 4
 J. Mobile/Text message interaction | 2 | 4
 K. Ending page | 5 | 5
-L. Ending page | 2 | 4
+L. 404 page| 2 | 4
 
 #### [Back to top](<#contents>)
 
