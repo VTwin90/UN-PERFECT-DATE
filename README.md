@@ -85,6 +85,11 @@ The general color scheme is different color shades of blue and white. With some 
 
 ### **Images**
 
+The images is consistent of: 
+1. Characters, which the developer has created through Pixton.
+2. Backgrounds, which is taken from Unsplash.
+3. Mobile, which the developer has created through Figma.
+
 ### **Typography**
 
 To keep a consistent, playful and modern style, and for easy readability, the fonts used are Play(for logo and ending headlines), Montserrat (the general text and heading), and Sacramento for the developers name. These are taken from Google Fonts library. 
