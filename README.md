@@ -36,6 +36,7 @@ A deployed link to the website can be found **[here]()**.
 ***
 
 ### **Project Goals**
+The idea is to create a game that showcases the developers knowledge of HTML, CSS and JavaScript. To provide users with some entertainment. The game should be easy to understand, fun, simple to interact with and give feedback to the user on all inputs.
 
 ### **Importance and Feasibility chart**
 
