@@ -119,7 +119,7 @@ To keep a consistent, playful and modern style, and for easy readability, the fo
 ### **Wireframes**
 |Sketches|Wireframes & Designs|                        
 |:-----:|:----:|
-|[Sketches]()| [Wireframes & Designs](assets/images/readme/wireframes&designs.pdf)
+|[Sketches](assets/images/readme/sketches.pdf)| [Wireframes & Designs](assets/images/readme/wireframes&designs.pdf)
 
 ### **Design changes**
 
