@@ -85,3 +85,12 @@ position: absolute;
 left:5px; 
 top:350px;
 }
+
+.btn-grid {
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+  gap: 10px;
+  margin-top: 430px;
+  z-index: 1;
+  padding: 10px;
+}
