@@ -79,3 +79,9 @@ position: absolute;
 left:100px; 
 top:100px;
 }
+
+.logo {
+position: absolute; 
+left:5px; 
+top:350px;
+}
