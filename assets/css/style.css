@@ -40,57 +40,79 @@ header {
 
 /*The Blond Woman */
 .avatar1 {
-position: absolute; 
-left:0px; 
-top:30px; 
+    position: absolute;
+    left: 0px;
+    top: 30px;
 }
 
 /*The Hat Guy */
 .avatar2 {
-position: absolute; 
-left:150px; 
-top:30px;
+    position: absolute;
+    left: 150px;
+    top: 30px;
 }
 
 /*The Glasses Guy */
 .avatar3 {
-position: absolute; 
-left:35px; 
-top:50px;
+    position: absolute;
+    left: 35px;
+    top: 50px;
 }
 
 /*The Woman with Black Hair */
 .avatar4 {
-position: absolute; 
-left:90px; 
-top:30px;
+    position: absolute;
+    left: 90px;
+    top: 30px;
 }
 
 /*The "Spanish" guy */
 .avatar5 {
-position: absolute; 
-left: 60px; 
-top:100px;
+    position: absolute;
+    left: 60px;
+    top: 100px;
 }
 
 /*The Red Hair girl */
 .avatar6 {
-position: absolute; 
-left:100px; 
-top:100px;
+    position: absolute;
+    left: 100px;
+    top: 100px;
 }
 
 .logo {
-position: absolute; 
-left:5px; 
-top:350px;
+    position: absolute;
+    left: 5px;
+    top: 350px;
 }
 
 .btn-grid {
-  display: grid;
-  grid-template-columns: repeat(1, auto);
-  gap: 10px;
-  margin-top: 430px;
-  z-index: 1;
-  padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    gap: 10px;
+    margin-top: 430px;
+    z-index: 1;
+    padding: 10px;
+}
+
+.btn {
+    background-color: #3EC6FF;
+    border: 1px solid #013D60;
+    width: 800px;
+    max-width: 45vw;
+    border-radius: 20px;
+    z-index: 1;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Montserrat', sans-serif;
+    /* taken from https://stackoverflow.com/questions/43753646/stroke-or-border-color-on-a-btn or more recent tool: https://www.geeksforgeeks.org/css-font-border/*/
+    text-shadow: -1px 0 #013D60,
+        0 1px #013D60,
+        1px 0 #013D60,
+        0 -1px #013D60;
+}
+
+.btn:hover {
+    border-color: black;
 }
