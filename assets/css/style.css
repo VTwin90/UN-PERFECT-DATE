@@ -37,3 +37,45 @@ header {
         1px 0 #013D60,
         0 -1px #013D60;
 }
+
+/*The Blond Woman */
+.avatar1 {
+position: absolute; 
+left:0px; 
+top:30px; 
+}
+
+/*The Hat Guy */
+.avatar2 {
+position: absolute; 
+left:150px; 
+top:30px;
+}
+
+/*The Glasses Guy */
+.avatar3 {
+position: absolute; 
+left:35px; 
+top:50px;
+}
+
+/*The Woman with Black Hair */
+.avatar4 {
+position: absolute; 
+left:90px; 
+top:30px;
+}
+
+/*The "Spanish" guy */
+.avatar5 {
+position: absolute; 
+left: 60px; 
+top:100px;
+}
+
+/*The Red Hair girl */
+.avatar6 {
+position: absolute; 
+left:100px; 
+top:100px;
+}
