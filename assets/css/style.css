@@ -88,8 +88,9 @@ header {
 
 .logo {
     position: absolute;
-    left: 5px;
-    top: 350px;
+    left: 4%;
+    top: 57%;
+    max-width: 95%;
 }
 
 .btn-grid {
