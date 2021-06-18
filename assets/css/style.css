@@ -1,1 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&family=Play:wght@700&family=Sacramento&display=swap');
+
+html {
+    background-color: #0A6CA3;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+body {
+
+    font-family: 'Montserrat', sans-serif;
+    background-color: #0C81C2;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 40vh;
+    overflow-x: hidden;
+}
