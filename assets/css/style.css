@@ -19,3 +19,21 @@ body {
     height: 40vh;
     overflow-x: hidden;
 }
+
+header {
+    background-color: #BDC022;
+}
+
+.headbanner {
+    background-color: #BDC022;
+    font-size: 12px;
+    padding: 5px;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font: bolder;
+    text-shadow:
+        -1px 0 #013D60,
+        0 1px #013D60,
+        1px 0 #013D60,
+        0 -1px #013D60;
+}
