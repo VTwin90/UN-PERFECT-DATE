@@ -7,13 +7,13 @@
     box-sizing: border-box;
     -webkit-font-smoothing: subpixel-antialiased;
 }
- 
+
 html {
     background-color: #0A6CA3;
     justify-content: center;
     align-items: center;
     align-content: center;
-    
+
 }
 
 body {
@@ -27,8 +27,6 @@ body {
     height: 35vh;
     overflow-x: hidden;
 }
-
-
 
 header {
     background-color: #BDC022;
@@ -104,28 +102,71 @@ header {
     max-width: 95%;
 }
 
+.bg {
+    background: url(./assets/images/scenes/streetScene.jpg) center center cover no-repeat fixed;
+}
+
+.container1 {
+    width: 800px;
+    max-width: 80%;
+    background-color: #0A6CA3;
+    opacity: 0.9;
+    padding: 5%;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container2 {
+    width: 800px;
+    max-width: 80%;
+    padding: 5%;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#text {
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+}
+
 .btn-grid {
     display: grid;
     grid-template-columns: repeat(1, auto);
     gap: 10px;
-    margin-top: 125%;
+    margin-bottom: 10px;
     z-index: 1;
-    padding: 5%;
 }
 
 .btn {
-    background-color: #3EC6FF;
+    background-color: #0A6CA3;
+    opacity: 0.9;
+    width: 250px;
+    height: 100px;
     border: 1px solid #013D60;
-    width: 800px;
-    max-width: 45vw;
     border-radius: 20px;
-    z-index: 1;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding: 5px 10px;
+    z-index: 1;
+    color: #FFFFFF;
+    outline: none;
     font-family: 'Montserrat', sans-serif;
     /* taken from https://stackoverflow.com/questions/43753646/stroke-or-border-color-on-a-btn or more recent tool: https://www.geeksforgeeks.org/css-font-border/*/
-    text-shadow: -1px 0 #013D60,
+    text-shadow:
+        -1px 0 #013D60,
         0 1px #013D60,
         1px 0 #013D60,
         0 -1px #013D60;
@@ -134,8 +175,3 @@ header {
 .btn:hover {
     border-color: black;
 }
-
-.bg {
-background: url(assets/images/scenes/streetScene.jpg) center center cover no-repeat fixed;
-}
-
