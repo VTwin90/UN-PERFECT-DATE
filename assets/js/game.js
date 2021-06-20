@@ -64,7 +64,7 @@ const textNodes = [
         nextText: 2
       }
     ],
-    image: 'streetScene.jpg',
+    image: 'streetScene',
   },
   {
     id: 2,
@@ -86,7 +86,7 @@ const textNodes = [
         nextText: 3
       }
     ],
-    image: 'storeScene.jpg',
+    image: 'storeScene',
   },
   {
     id: 3,
@@ -105,7 +105,7 @@ const textNodes = [
         nextText: 13
       }
     ],
-    image: 'streetScene.jpg',
+    image: 'streetScene',
   },
 ];
 
