@@ -11,6 +11,10 @@ function startGame() {
 function showTextNode(textNodeIndex) {
     const textNode = textNodes.find(textNode => textNode.id === textNodeIndex);
     textElement.innerText = textNode.text;
+    document.getElementById("scene").src= textNode.image;
+        const streetScene = textNode.image === '<img src="assets/images/scenes/streetScene.jpg"/>';
+        const storeScene = textNode.image === '<img src="assets/images/scenes/storeScene.jpg"/>';
+        const cafeScene = textNode.image === '<img src="assets/images/scenes/cafeScene.jpg"/>';
     while (optionButtonsElement.firstChild) {
         optionButtonsElement.removeChild(optionButtonsElement.firstChild);
     }
@@ -59,7 +63,8 @@ const textNodes = [
         score: -1,
         nextText: 2
       }
-    ]
+    ],
+    image: 'streetScene.jpg',
   },
   {
     id: 2,
@@ -80,7 +85,8 @@ const textNodes = [
         score: 0,
         nextText: 3
       }
-    ]
+    ],
+    image: 'storeScene.jpg',
   },
   {
     id: 3,
@@ -98,7 +104,8 @@ const textNodes = [
         text: 'I do not dare, walk out the door',
         nextText: 13
       }
-    ]
+    ],
+    image: 'streetScene.jpg',
   },
 ];
 
