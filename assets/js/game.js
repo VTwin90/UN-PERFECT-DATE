@@ -86,7 +86,7 @@ const textNodes = [
         nextText: 3
       }
     ],
-    image: 'storeScene',
+    image: 'storeScene.jpg',
   },
   {
     id: 3,
@@ -106,6 +106,128 @@ const textNodes = [
       }
     ],
     image: 'streetScene',
+  },
+  {
+    id: 4,
+    text: 'You walk to the table and say:',
+    options: [
+      {
+        text: 'Hi, Do you mind  if I sit here?',
+        score: 2,
+        nextText: 5
+      },
+      {
+        text: 'Just sit down without saying a word',
+        score: 0,
+        nextText: 6
+      },
+      {
+        text: 'Wait until you get noticed',
+        score: 1,
+        nextText: 7
+      }
+    ]
+  },
+  {
+    id: 5,
+    text: 'He looks up at you and gives you a warm smile and says: Sure, have a seat.',
+    options: [
+      {
+        text: 'Sit down',
+        nextText: 8
+      }
+    ]
+  },
+  {
+    id: 6,
+    text: 'He looks at you with confusion, but gives you a small smile.',
+    options: [
+      {
+        text: 'Sit down',
+        nextText: 8
+      }
+    ]
+  },
+  {
+    id: 7,
+    text: 'He looks up after noticing you fiddling with your items, gives you a smile and asks if you would like to have a seat.',
+    options: [
+      {
+        text: 'Sit down',
+        nextText: 8
+      }
+    ]
+  },
+  {
+    id: 8,
+    text: 'After a couple of minutes of awkward silence you observe that he is reading a book, has a half empty cup of black coffee on the table, and a hardly touched bagel, you try to breach the silence by asking a question:',
+    options: [
+      {
+        text: 'Do you come here often?',
+        score: 0,
+        nextText: 9
+      },
+      {
+        text: 'How do you like your drink?',
+        score: 1,
+        nextText: 10
+      },
+      {
+        text: 'How is the book?',
+        score: 2,
+        nextText: 11
+      }
+    ]
+  },
+  {
+    id: 9,
+    text: 'Shakes his head while giving you a “really?, that´s the original line you´re going for” look. And the conversation slowly dies out.',
+    options: [
+      {
+        text: 'Continue',
+        nextText: 12
+      }
+    ]
+  },
+  {
+    id: 10,
+    text: 'He appreciates that you are making an effort, and you continue your small talk for a bit longer.',
+    options: [
+      {
+        text: 'Continue',
+        nextText: 12
+      }
+    ]
+  },
+  {
+    id: 11,
+    text: 'Gives you a big smile and starts to enthusiastically speak about the book! You have a stimulating conversation about the ins and outs of the concept, storyline and the characters of the book.',
+    options: [
+      {
+        text: 'Continue',
+        nextText: 12
+      }
+    ]
+  },
+   {
+    id: 12,
+    text: 'After a while you can see the conversation is getting to a standstill. You decide that you need some bff assistance and excuse yourself from the table.',
+    options: [
+      {
+        text: 'Mobile',
+        nextText: 13
+      }
+    ]
+  },
+  {
+    id: 13,
+    text: 'You froze up, could not make a decision and went back home to enjoy your drink. Later that day, thinking back, you might just have lost a great opportunity to find the love of your life.',
+    options: [
+      {
+        text: 'Try Again',
+        nextText: -1
+      }
+    ]
   },
 ];
 
