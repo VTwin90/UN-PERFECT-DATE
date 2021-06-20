@@ -3,7 +3,7 @@
 ### **Project - Interactive Frontend Development - Code Institute.**
 This is the second milestone project from CI with a focus on HTML, CSS and JavaScript. The project is a fun and interactive game, with a visual novel to showcase the developers learning and skills with JavaScript.  
 
-A deployed link to the website can be found **[here]()**.
+A deployed link to the website can be found **[here](https://vtwin90.github.io/UN-PERFECT-DATE/)**.
 
 ![Mockup](assets/images/mockup.png)
 ## **Contents**
@@ -199,16 +199,16 @@ The following commands were used for version control throughout the project:
 ### **Deployment to Github pages**
 
 1. Push project to GitHub. Navigate and log into the GitHub site.
-2. Go to repositories and select the one associated to this project: **[Milestone 1 Portfolio](https://github.com/VTwin90/-UN-PERFECT-DATE)**.
+2. Go to repositories and select the one associated to this project: **[(UN)PERFECT DATE](https://github.com/VTwin90/UN-PERFECT-DATE)**.
 3. On the main repository, click "Settings" and scroll to "Github Pages".
 4. Under "Source" select "Master Branch" and click "Save".
 5. Click on the link to go to the live deployed page.
 
-The live link for the site is here: **[]()**
+The live link for the site is here: **[https://vtwin90.github.io/UN-PERFECT-DATE/](https://vtwin90.github.io/UN-PERFECT-DATE/)**
 
 ### **Create a local clone**
 
-1. Open GitHub and navigate to repository **[here](https://github.com/VTwin90/-UN-PERFECT-DATE)**.
+1. Open GitHub and navigate to repository **[here](https://github.com/VTwin90/UN-PERFECT-DATE)**.
 2. Click the Code drop down menu. 
 3. Options: 
 * Download the ZIP file, unpack locally and open with IDE.  
@@ -219,7 +219,7 @@ The live link for the site is here: **[]()**
 
 ### **Fork Project**
 
-1. Navigate to the GitHub Repository you want to **[fork](https://github.com/VTwin90/-UN-PERFECT-DATE)**.
+1. Navigate to the GitHub Repository you want to **[fork](https://github.com/VTwin90/UN-PERFECT-DATE)**.
 2. On the top right of the page under the header, click the fork button.
 3. Creates a duplicate of the full project in your GitHub Repository.
 
