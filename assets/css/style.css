@@ -102,8 +102,8 @@ header {
     max-width: 95%;
 }
 
-.bg {
-    background: url(./assets/images/scenes/streetScene.jpg) center center cover no-repeat fixed;
+#scene {
+    background: url("assets/images/scenes/streetScene.jpg") center center cover no-repeat fixed;
 }
 
 .container1 {
