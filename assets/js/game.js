@@ -90,7 +90,7 @@ const textNodes = [
   },
   {
     id: 3,
-    text: 'You wait for your order and after 5 minutes your name gets called. You grab your items and then look around to see if there are any available seats. There are only 2 spots available. 1. Is on a table in front of a handsome man and 2. in front of a beautiful woman. You decide to approach the:',
+    text: 'You wait for your order and after 5 minutes your name gets called. You grab your items and then look around to see if there are any available seats. There are only 2 spots available. 1. Is on a table in front of a cuteman and 2. in front of a cute woman. You decide to approach the:',
     options: [
       {
         text: 'Man',
@@ -112,7 +112,7 @@ const textNodes = [
     text: 'You walk to the table and say:',
     options: [
       {
-        text: 'Hi, Do you mind  if I sit here?',
+        text: 'Hi, Do you mind if I sit here?',
         score: 2,
         nextText: 5
       },
@@ -130,7 +130,7 @@ const textNodes = [
   },
   {
     id: 5,
-    text: 'He looks up at you and gives you a warm smile and says: Sure, have a seat.',
+    text: 'The cutie look up at you and gives you a warm smile and says: Sure, have a seat.',
     options: [
       {
         text: 'Sit down',
@@ -140,7 +140,7 @@ const textNodes = [
   },
   {
     id: 6,
-    text: 'He looks at you with confusion, but gives you a small smile.',
+    text: 'The cutie look up at you with confusion, but gives you a small smile.',
     options: [
       {
         text: 'Sit down',
@@ -150,7 +150,7 @@ const textNodes = [
   },
   {
     id: 7,
-    text: 'He looks up after noticing you fiddling with your items, gives you a smile and asks if you would like to have a seat.',
+    text: 'The cutie looks up after noticing you fiddling with your items, gives you a smile and asks if you would like to have a seat.',
     options: [
       {
         text: 'Sit down',
@@ -160,7 +160,7 @@ const textNodes = [
   },
   {
     id: 8,
-    text: 'After a couple of minutes of awkward silence you observe that he is reading a book, has a half empty cup of black coffee on the table, and a hardly touched bagel, you try to breach the silence by asking a question:',
+    text: 'After giving each other`s names and a couple of minutes of awkward silence, you observe that Sam is reading a book, has a half empty cup of black coffee on the table, and a hardly touched bagel, you try to breach the silence by asking a question:',
     options: [
       {
         text: 'Do you come here often?',
@@ -181,7 +181,7 @@ const textNodes = [
   },
   {
     id: 9,
-    text: 'Shakes his head while giving you a “really?, that´s the original line you´re going for” look. And the conversation slowly dies out.',
+    text: 'Sam gives you a tiny smile while giving you a “really?, that´s the original line you´re going for” look. And the conversation slowly dies out.',
     options: [
       {
         text: 'Continue',
@@ -191,7 +191,7 @@ const textNodes = [
   },
   {
     id: 10,
-    text: 'He appreciates that you are making an effort, and you continue your small talk for a bit longer.',
+    text: 'Sam appreciates that you are making an effort, and you continue your small talk for a bit longer.',
     options: [
       {
         text: 'Continue',
@@ -201,7 +201,7 @@ const textNodes = [
   },
   {
     id: 11,
-    text: 'Gives you a big smile and starts to enthusiastically speak about the book! You have a stimulating conversation about the ins and outs of the concept, storyline and the characters of the book.',
+    text: 'Sam gives you a big smile and starts to enthusiastically speak about the book! You have a stimulating conversation about the ins and outs of the concept, storyline and the characters of the book.',
     options: [
       {
         text: 'Continue',
