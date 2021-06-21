@@ -103,7 +103,7 @@ header {
 }
 
 #scene {
-    background: url("assets/images/scenes/streetScene.jpg") center center cover no-repeat fixed;
+    background-image: url(./assets/images/scenes/streetScene.jpg) center center cover no-repeat fixed;
 }
 
 .container1 {

@@ -1,5 +1,6 @@
 const textElement = document.getElementById('text');
 const optionButtonsElement = document.getElementById('option-buttons');
+const imageElement = document.getElementById('scene');
 
 let state = {};
 
@@ -12,9 +13,10 @@ function showTextNode(textNodeIndex) {
     const textNode = textNodes.find(textNode => textNode.id === textNodeIndex);
     textElement.innerText = textNode.text;
     document.getElementById("scene").src= textNode.image;
-        const streetScene = textNode.image === '<img src="assets/images/scenes/streetScene.jpg"/>';
-        const storeScene = textNode.image === '<img src="assets/images/scenes/storeScene.jpg"/>';
-        const cafeScene = textNode.image === '<img src="assets/images/scenes/cafeScene.jpg"/>';
+        const streetScene = textNode.image === '<img src="./assets/images/scenes/streetScene.jpg"/>';
+        const storeScene = textNode.image === '<img src="./assets/images/scenes/storeScene.jpg"/>';
+        const cafeScene = textNode.image === '<img src="./assets/images/scenes/cafeScene.jpg"/>';
+        
     while (optionButtonsElement.firstChild) {
         optionButtonsElement.removeChild(optionButtonsElement.firstChild);
     }
@@ -64,7 +66,7 @@ const textNodes = [
         nextText: 2
       }
     ],
-    image: 'streetScene',
+    image: 'streetScene.jpg',
   },
   {
     id: 2,
@@ -126,7 +128,8 @@ const textNodes = [
         score: 1,
         nextText: 8
       }
-    ]
+    ],
+     image: '',
   },
   {
     id: 5,
@@ -136,7 +139,8 @@ const textNodes = [
         text: 'Try Again',
         nextText: -1
       }
-    ]
+    ],
+     image: '',
   },
   {
     id: 6,
@@ -146,7 +150,8 @@ const textNodes = [
         text: 'Sit down',
         nextText: 9
       }
-    ]
+    ],
+     image: '',
   },
   {
     id: 7,
@@ -156,7 +161,8 @@ const textNodes = [
         text: 'Sit down',
         nextText: 9
       }
-    ]
+    ],
+     image: 'streetScene',
   },
   {
     id: 8,
@@ -166,7 +172,8 @@ const textNodes = [
         text: 'Sit down',
         nextText: 9
       }
-    ]
+    ],
+     image: '',
   },
   {
     id: 9,
@@ -187,7 +194,8 @@ const textNodes = [
         score: 2,
         nextText: 12
       }
-    ]
+    ],
+     image: '',
   },
   {
     id: 10,
@@ -197,7 +205,8 @@ const textNodes = [
         text: 'Continue',
         nextText: 13
       }
-    ]
+    ],
+     image: '',
   },
   {
     id: 11,
@@ -207,7 +216,8 @@ const textNodes = [
         text: 'Continue',
         nextText: 13
       }
-    ]
+    ],
+     image: '',
   },
   {
     id: 12,
@@ -217,7 +227,8 @@ const textNodes = [
         text: 'Continue',
         nextText: 13
       }
-    ]
+    ],
+     image: '',
   },
    {
     id: 13,
@@ -225,19 +236,21 @@ const textNodes = [
     options: [
       {
         text: 'Mobile',
-        nextText: 
+        nextText: 13
       }
-    ]
+    ],
+     image: '',
   },
   {
-    id: ,
-    text: '',
+    id: 13,
+    text: 'x',
     options: [
       {
-        text: '',
-        nextText: 
+        text: 'x',
+        nextText: 14 
       }
-    ]
+    ],
+     image: '',
   },
 ];
 
