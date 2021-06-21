@@ -13,9 +13,9 @@ function showTextNode(textNodeIndex) {
     const textNode = textNodes.find(textNode => textNode.id === textNodeIndex);
     textElement.innerText = textNode.text;
     document.getElementById("scene").src= textNode.image;
-        const streetScene = textNode.image === '<img src="./assets/images/scenes/streetScene.jpg"/>';
-        const storeScene = textNode.image === '<img src="./assets/images/scenes/storeScene.jpg"/>';
-        const cafeScene = textNode.image === '<img src="./assets/images/scenes/cafeScene.jpg"/>';
+        const street = textNode.image === '<img src="./assets/images/scenes/street.jpg"/>';
+        const store = textNode.image === '<img src="./assets/images/scenes/store.jpg"/>';
+        const cafe = textNode.image === '<img src="./assets/images/scenes/cafe.jpg"/>';
         
     while (optionButtonsElement.firstChild) {
         optionButtonsElement.removeChild(optionButtonsElement.firstChild);
