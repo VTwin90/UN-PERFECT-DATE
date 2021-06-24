@@ -1,5 +1,5 @@
 function sendMail(contactForm) {
-    emailjs.send("service_gmail", "UnPerfectDate", {
+    emailjs.send("service_gmail", "template_a9qjkmq", {
         "from_name": contactForm.name.value,
         "from_email": contactForm.emailaddress.value,
         "message": contactForm.message.value
