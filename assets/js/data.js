@@ -1,25 +1,12 @@
-const textNodes = [
+const pages = [
   {
     id: 1,
     text: 'You´re walking through your hometown street and before entering your favourite cafe, you see a lonely puppy',
-    options: [
-      {
-        text: 'You give it a pet',
-        score: 0,
-        nextText: 2
-      },
-      {
-        text: 'You ignore it',
-        score: -1,
-        nextText: 2
-      },
-       {
-        text: 'You take a photo and add it to instagram',
-        score: -1,
-        nextText: 2
-      }
-    ],
+    nextPage: 2,
+    score: 0,
     image: 'street.jpg',
+    options: [
+    ],
   },
   {
     id: 2,
@@ -28,39 +15,42 @@ const textNodes = [
       {
         text: 'Black coffee',
         score: 0,
-        nextText: 3
+        nextPage: 3
       },
       {
         text: 'Vanilla spiced latte,',
         score: 0,
-        nextText: 3
+        nextPage: 3
       },
       {
         text: 'Tea',
         score: 0,
-        nextText: 3
+        nextPage: 3
       }
     ],
-    image: '<img src="assets/images/scenes/store.jpg"/>',
+    image: 'store.jpg',
   },
   {
     id: 3,
-    text: 'You wait for your order and after 5 minutes your name gets called. You grab your items and then look around to see if there are any available seats. There are only 2 spots available. 1. Is on a table in front of a cuteman and 2. in front of a cute woman. You decide to approach the:',
+    text: '',
     options: [
       {
         text: 'Man',
-        nextText: 4
+        score: 1,
+        nextPage: 4
       },
       {
         text: 'Woman',
-        nextText: 4
+        score: 1,
+        nextPage: 4
       },
       {
         text: 'I do not dare, walk out the door',
-        nextText: 5
+        score: 1,
+        nextPage: 5
       }
     ],
-    image: 'street.jpg',
+    image: 'cafe.jpg',
   },
   {
     id: 4,
@@ -69,17 +59,17 @@ const textNodes = [
       {
         text: 'Hi, Do you mind if I sit here?',
         score: 2,
-        nextText: 6
+        nextPage: 6
       },
       {
         text: 'Just sit down without saying a word',
         score: 0,
-        nextText: 7
+        nextPage: 7
       },
       {
         text: 'Wait until you get noticed',
         score: 1,
-        nextText: 8
+        nextPage: 8
       }
     ],
      image: '',
@@ -90,7 +80,7 @@ const textNodes = [
     options: [
       {
         text: 'Try Again',
-        nextText: -1
+        nextPage: -1
       }
     ],
      image: '',
@@ -101,7 +91,8 @@ const textNodes = [
     options: [
       {
         text: 'Sit down',
-        nextText: 9
+        score: 1,
+        nextPage: 9
       }
     ],
      image: '',
@@ -112,7 +103,8 @@ const textNodes = [
     options: [
       {
         text: 'Sit down',
-        nextText: 9
+        score: 1,
+        nextPage: 9
       }
     ],
      image: 'street.jpg',
@@ -123,7 +115,8 @@ const textNodes = [
     options: [
       {
         text: 'Sit down',
-        nextText: 9
+        score: 1,
+        nextPage: 9
       }
     ],
      image: '',
@@ -135,17 +128,17 @@ const textNodes = [
       {
         text: 'Do you come here often?',
         score: 0,
-        nextText: 10
+        nextPage: 10
       },
       {
         text: 'How do you like your drink?',
         score: 1,
-        nextText: 11
+        nextPage: 11
       },
       {
         text: 'How is the book?',
         score: 2,
-        nextText: 12
+        nextPage: 12
       }
     ],
      image: '',
@@ -156,7 +149,7 @@ const textNodes = [
     options: [
       {
         text: 'Continue',
-        nextText: 13
+        nextPage: 13
       }
     ],
      image: '',
@@ -167,7 +160,7 @@ const textNodes = [
     options: [
       {
         text: 'Continue',
-        nextText: 13
+        nextPage: 13
       }
     ],
      image: '',
@@ -178,7 +171,7 @@ const textNodes = [
     options: [
       {
         text: 'Continue',
-        nextText: 13
+        nextPage: 13
       }
     ],
      image: '',
@@ -189,7 +182,7 @@ const textNodes = [
     options: [
       {
         text: 'Mobile',
-        nextText: 13
+        nextPage: 13
       }
     ],
      image: '',
@@ -200,7 +193,7 @@ const textNodes = [
     options: [
       {
         text: 'x',
-        nextText: 14 
+        nextPage: -1 
       }
     ],
      image: '',
