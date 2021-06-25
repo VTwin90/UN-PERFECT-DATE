@@ -1,48 +1,57 @@
-const textElement = document.getElementById('text');
+const pageElement = document.getElementById('text');
 const optionButtonsElement = document.getElementById('option-buttons');
 const imageElement = document.getElementById('scene');
+const textContainer = document.getElementById('textContainer');
 
 let state = {};
 
 function startGame() {
-    state = {};
-    showTextNode(1);
+    state = {score:0};
+    showPage(1);
 }
 
-function showTextNode(textNodeIndex) {
-    const textNode = textNodes.find(textNode => textNode.id === textNodeIndex);
-    textElement.innerText = textNode.text;
-    document.getElementById("scene").src= textNode.image;
-        const street = textNode.image === '<img src="assets/images/scenes/street.jpg"/>';
-        const store = textNode.image === '<img src="assets/images/scenes/store.jpg"/>';
-        const cafe = textNode.image === '<img src="assets/images/scenes/cafe.jpg"/>';
-        
-    while (optionButtonsElement.firstChild) {
-        optionButtonsElement.removeChild(optionButtonsElement.firstChild);
-    }
+function showPage(pageIndex) {
+    const page = pages.find(page => page.id === pageIndex);
+    pageElement.innerText = page.text;
+    document.getElementById("scene").src = "assets/images/scenes/" + page.image;
+    optionButtonsElement.innerHTML = "";
+    textContainer.addEventListener('click', () => selectOption( {
+        nextPage: pageIndex + 1, score: 0
+      })); 
 
-    textNode.options.forEach(option => {
-        if (showOption(option)) {
+    page.options.forEach(option => {
             const button = document.createElement('button');
             button.innerText = option.text;
             button.classList.add('btn');
             button.addEventListener('click', () => selectOption(option));
             optionButtonsElement.appendChild(button);
-        }
     });
 }
 
-function showOption(option) {
-    return option.requiredState == null || option.requiredState(state);
+function selectOption(option) {
+    
+    const nextPageId = option.nextPage;
+    if (nextPageId <= 0) {
+     showEnding(state.score)   
+    }
+    else {
+        state.score = state.score + option.score
+        showPage(nextPageId);
+    }
+    console.log(state.score);
 }
 
-function selectOption(option) {
-    const nextTextNodeId = option.nextText;
-    if (nextTextNodeId <= 0) {
-        return startGame();
+function showEnding(score) {
+    if (score <= 10){
+        window.location.href = "end.html";
+        console.log("ending1");
     }
-    state = Object.assign(state, option.setState);
-    showTextNode(nextTextNodeId);
+    else if (score => 20){
+        console.log("ending2")
+    }
+    else {
+        console.log("ending3");
+    }
 }
 
 startGame();
