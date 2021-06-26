@@ -44,7 +44,7 @@ function selectOption(option) {
 }
 
 function showEnding(score) {
-    if (score <= ) 4 {
+    if (score <= 4) {
         window.location.href = 'end.html';
         console.log('ending1');
     } else if (score => 6) {
