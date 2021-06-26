@@ -44,10 +44,10 @@ function selectOption(option) {
 }
 
 function showEnding(score) {
-    if (score <= 10) {
+    if (score <= ) 4 {
         window.location.href = 'end.html';
         console.log('ending1');
-    } else if (score => 20) {
+    } else if (score => 6) {
         console.log('ending2')
     } else {
         console.log('ending3');
