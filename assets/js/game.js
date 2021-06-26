@@ -6,35 +6,37 @@ const textContainer = document.getElementById('textContainer');
 let state = {};
 
 function startGame() {
-    state = {score:0};
+    state = {
+        score: 0
+    };
     showPage(1);
 }
 
 function showPage(pageIndex) {
     const page = pages.find(page => page.id === pageIndex);
     pageElement.innerText = page.text;
-    document.getElementById("scene").src = "assets/images/scenes/" + page.image;
-    optionButtonsElement.innerHTML = "";
-    textContainer.addEventListener('click', () => selectOption( {
-        nextPage: pageIndex + 1, score: 0
-      })); 
+    document.getElementById('scene').src = 'assets/images/scenes/' + page.image;
+    optionButtonsElement.innerHTML = '';
+    textContainer.addEventListener('click', () => selectOption({
+        nextPage: pageIndex + 1,
+        score: 0
+    }));
 
     page.options.forEach(option => {
-            const button = document.createElement('button');
-            button.innerText = option.text;
-            button.classList.add('btn');
-            button.addEventListener('click', () => selectOption(option));
-            optionButtonsElement.appendChild(button);
+        const button = document.createElement('button');
+        button.innerText = option.text;
+        button.classList.add('btn');
+        button.addEventListener('click', () => selectOption(option));
+        optionButtonsElement.appendChild(button);
     });
 }
 
 function selectOption(option) {
-    
+
     const nextPageId = option.nextPage;
     if (nextPageId <= 0) {
-     showEnding(state.score)   
-    }
-    else {
+        showEnding(state.score)
+    } else {
         state.score = state.score + option.score
         showPage(nextPageId);
     }
@@ -42,15 +44,13 @@ function selectOption(option) {
 }
 
 function showEnding(score) {
-    if (score <= 10){
-        window.location.href = "end.html";
-        console.log("ending1");
-    }
-    else if (score => 20){
-        console.log("ending2")
-    }
-    else {
-        console.log("ending3");
+    if (score <= 10) {
+        window.location.href = 'end.html';
+        console.log('ending1');
+    } else if (score => 20) {
+        console.log('ending2')
+    } else {
+        console.log('ending3');
     }
 }
 
