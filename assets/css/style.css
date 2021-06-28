@@ -49,10 +49,10 @@ header {
 }
 
 #avatar {
-    position: absolute;
-    max-width: 38%;
-    top: 39%;
-    left: 50%;
+    position: fixed;
+    max-width: 80%;
+    top: 35%;
+    left: 35%;
     z-index: 1;
 }
 
@@ -189,60 +189,70 @@ header {
     }
 
 
-@media only screen and (min-width: 300px) {
-    .logo {
-        max-width: 100%;
-    }
-
-    @media only screen and (min-width: 500px) {
-
-        .headbanner {
-            font-size: 120%;
-        }
-
+    @media only screen and (min-width: 300px) {
         .logo {
-            max-width: 80%;
+            max-width: 100%;
         }
 
-    }
+        @media only screen and (min-width: 500px) {
 
-    @media only screen and (min-width: 768px) {
-        .btn {
-            font-size: x-large;
-            max-width: 60%;
-            padding: 40px 0;
-        }
+            .headbanner {
+                font-size: 120%;
+            }
 
-    }
+            .logo {
+                max-width: 80%;
+            }
 
-    @media only screen and (min-width: 992px) {
-        .headbanner {
-            font-size: 90%;
-        }
-         .logo {
-            max-width: 35%;
         }
 
-        .btn {
-            max-width: 40%;
-        }
-        
-    }
+        @media only screen and (min-width: 768px) {
+            .btn {
+                font-size: x-large;
+                max-width: 60%;
+                padding: 40px 0;
+            }
 
-    @media only screen and (min-width: 1500px) {
-        .headbanner {
-            font-size: 180%;
-        }
-
-        .logo {
-            max-width: 35%;
+            #avatar {
+                top: 20%;
+                left: 35%;
+            }
         }
 
-        .options.btn {
-            max-width: 70%;
+        @media only screen and (min-width: 992px) {
+            .headbanner {
+                font-size: 90%;
+            }
+
+            .logo {
+                max-width: 35%;
+            }
+
+            .btn {
+                max-width: 40%;
+            }
+
+             #avatar {
+                top: 20%;
+                left: 45%;
+            }
+
         }
-        
-        .btn {
-            max-width: 50%;
+
+        @media only screen and (min-width: 1500px) {
+            .headbanner {
+                font-size: 180%;
+            }
+
+            .logo {
+                max-width: 35%;
+            }
+
+            .options.btn {
+                max-width: 70%;
+            }
+
+            .btn {
+                max-width: 50%;
+            }
         }
-    }
