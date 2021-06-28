@@ -66,54 +66,6 @@ header {
 
 }
 
-/*The Blond Woman */
-.avatar1 {
-    position: absolute;
-    max-width: 45%;
-    top: 5%;
-    left: -1%;
-}
-
-/*The Hat Guy */
-.avatar2 {
-    position: absolute;
-    max-width: 45%;
-    top: 5%;
-    left: 52%;
-}
-
-/*The Glasses Guy */
-.avatar3 {
-    position: absolute;
-    max-width: 45%;
-    top: 10%;
-    left: 8%;
-}
-
-/*The Woman with Black Hair */
-.avatar4 {
-    position: absolute;
-    max-width: 45%;
-    top: 6%;
-    left: 32%;
-}
-
-/*The "Spanish" guy */
-.avatar5 {
-    position: absolute;
-    max-width: 45%;
-    top: 15%;
-    left: 25%;
-}
-
-/*The Red Hair girl */
-.avatar6 {
-    position: absolute;
-    max-width: 45%;
-    top: 16%;
-    left: 40%;
-}
-
 .logo {
     max-width: 80%;
     height: auto;
