@@ -1,8 +1,4 @@
-const pageElement = document.getElementById('text');
 const optionButtonsElement = document.getElementById('option-buttons');
-const imageElement = document.getElementById('scene');
-const avatarElement = document.getElementById('avatar');
-const mobileElement = document.getElementById('mobile');
 const textContainer = document.getElementById('textContainer');
 
 let state = {};
@@ -51,9 +47,9 @@ function showPage(pageIndex) {
 function selectOption(option) {
     const nextPageId = option.nextPage;
     if (nextPageId <= 0) {
-        showEnding(state.score)
+        showEnding(state.score);
     } else {
-        state.score = state.score + option.score
+        state.score = state.score + option.score;
         showPage(nextPageId);
     }
     console.log(state.score);
@@ -65,7 +61,7 @@ function showEnding(score) {
         window.location.href = 'end.html';
         console.log('ending1');
     } else if (score <= 8) {
-        console.log('ending2')
+        console.log('ending2');
     } else {
         console.log('ending3');
     }
