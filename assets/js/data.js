@@ -70,7 +70,7 @@ const pages = [
   },
   {
     id: 6,
-    text: 'You wait for your order and after five minutes your name gets called. You grab your items and then look around to see if there are any available seats. There are only two spots available. One is on a table in front of a handsome man and another in front of a beautiful woman. You choose to approach the:',
+    text: 'You wait for your order and after five minutes your name gets called. You grab your items and then look around to see if there are any available seats.',
     nextPage: 7,
     image: 'cafe.jpg',
     mobile: 'scenes/mobileNone.png',
@@ -80,6 +80,16 @@ const pages = [
   },
   {
     id: 7,
+    text: 'One is on a table in front of a handsome man and another in front of a beautiful woman. You choose to approach the:',
+    nextPage: 8,
+    image: 'cafe.jpg',
+    mobile: 'scenes/mobileNone.png',
+    avatar: 'none.png',
+    options: [
+    ]
+  },
+  {
+    id: 8,
     text: [''],
     image: 'cafe.jpg',
     mobile: 'scenes/mobileNone.png',
@@ -88,7 +98,7 @@ const pages = [
       {
         text: 'Man',
         score: 0,
-        nextPage: 8
+        nextPage: 9
       },
       {
         text: 'Woman',
@@ -103,16 +113,16 @@ const pages = [
     ]
   },
   {
-    id: 8,
+    id: 9,
     text: 'You decided to approach the man, and you walk to the table and say:',
-    nextPage: 9,
+    nextPage: 10,
     image: 'cafe.jpg',
     mobile: 'scenes/mobileNone.png',
     avatar: 'none.png',
     options: [ ]
   },
   {
-    id: 9,
+    id: 10,
     text: [''],
     image: 'cafe.jpg',
     mobile: 'scenes/mobileNone.png',
@@ -121,118 +131,127 @@ const pages = [
       {
         text: 'Hi, Do you mind if I sit here?',
         score: 2,
-        nextPage: 10
+        nextPage: 11
       },
       {
         text: 'Just sit down without saying a word',
         score: 0,
-        nextPage: 11
+        nextPage: 12
       },
       {
         text: 'Wait until you get noticed',
         score: 1,
-        nextPage: 12
+        nextPage: 13
       }
     ],
   },
   {
-    id: 10,
-    text: 'The man looks up at you and gives you a smile and says: "Sure, have a seat".',
-    nextPage: 13,
-    image: 'cafe.jpg',
-    mobile: 'scenes/mobileNone.png',
-    avatar: 'avatar1.png',
-    options: [ ]
-  },
-  {
     id: 11,
-    text: 'The man looks up at you with confusion, but gives you a small smile.',
-    nextPage: 13,
+    text: 'The man looks up at you and gives you a smile and says: "Sure, have a seat".',
+    nextPage: 14,
     image: 'cafe.jpg',
     mobile: 'scenes/mobileNone.png',
-    avatar: 'avatar1.png',
+    avatar: 'bigSmileMan.png',
     options: [ ]
   },
   {
     id: 12,
-    text: 'The man looks up after noticing you fiddling with your items, gives you a smile and asks if you would like to have a seat.',
-    nextPage: 13,
+    text: 'The man looks up at you with confusion, but lets you have a seat.',
+    nextPage: 14,
     image: 'cafe.jpg',
     mobile: 'scenes/mobileNone.png',
-    avatar: 'avatar1.png',
+    avatar: 'confusedMan.png',
     options: [ ]
   },
   {
     id: 13,
-    text: 'After giving each other´s names and a couple of minutes of awkward silence, you observe that Sam is reading a book, has a half empty cup of black coffee on the table, and a hardly touched bagel, you try to breach the silence by asking a question:',
+    text: 'The man looks up after noticing you fiddling with your items, and asks if you would like to have a seat.',
     nextPage: 14,
     image: 'cafe.jpg',
     mobile: 'scenes/mobileNone.png',
-    avatar: 'avatar1.png',
+    avatar: 'manSmile.png',
     options: [ ]
   },
   {
     id: 14,
-    text: [''],
+    text: 'After giving each other´s names and a couple of minutes of awkward silence, you start to observe more about Sam.',
+    nextPage: 15,
     image: 'cafe.jpg',
     mobile: 'scenes/mobileNone.png',
-    avatar: 'avatar1.png',
-    options: [
-      {
-        text: 'Do you come here often?',
-        score: 0,
-        nextPage: 15
-      },
-      {
-        text: 'How do you like your drink?',
-        score: 1,
-        nextPage: 16
-      },
-      {
-        text: 'How is the book?',
-        score: 2,
-        nextPage: 17
-      }
-    ]
+    avatar: 'manSmile.png',
+    options: [ ]
   },
   {
     id: 15,
-    text: 'Sam gives you a tiny smile while giving you a “really?, that is the original line you´re going for” look. And the conversation slowly dies out.',
-    nextPage: 18,
+    text: 'He is reading a book, has a half empty cup of black coffee on the table, and a hardly touched bagel, you try to breach the silence by asking a question:',
+    nextPage: 16,
     image: 'cafe.jpg',
     mobile: 'scenes/mobileNone.png',
-    avatar: 'avatar1.png',
+    avatar: 'none.png',
     options: [ ]
   },
   {
     id: 16,
-    text: 'Sam appreciates that you are making an effort, and you continue your small talk for a bit longer.',
-    nextPage: 18,
+    text: [''],
     image: 'cafe.jpg',
     mobile: 'scenes/mobileNone.png',
-    avatar: 'avatar1.png',
-    options: [ ]
+    avatar: 'none.png',
+    options: [
+      {
+        text: 'Do you come here often?',
+        score: 0,
+        nextPage: 17
+      },
+      {
+        text: 'How do you like your drink?',
+        score: 1,
+        nextPage: 18
+      },
+      {
+        text: 'How is the book?',
+        score: 2,
+        nextPage: 19
+      }
+    ]
   },
   {
     id: 17,
-    text: 'Sam gives you a big smile and starts to enthusiastically speak about the book! You have a stimulating conversation about the ins and outs of the concept, storyline and the characters of the book.',
-    nextPage: 18,
+    text: 'Sam gives you a tiny smile while giving you a “really?, that is the original line you´re going for” look. And the conversation slowly dies out.',
+    nextPage: 20,
     image: 'cafe.jpg',
     mobile: 'scenes/mobileNone.png',
-    avatar: 'avatar1.png',
+    avatar: 'manSmile.png',
     options: [ ]
   },
   {
     id: 18,
-    text: 'After a while you can see the conversation is getting to a standstill. You decide that you need some bff assistance and excuse yourself from the table.',
-    nextPage: 19,
+    text: 'Sam appreciates that you are making an effort, and you continue your small talk for a bit longer.',
+    nextPage: 20,
     image: 'cafe.jpg',
     mobile: 'scenes/mobileNone.png',
-    avatar: 'avatar1.png',
+    avatar: 'manSmile.png',
     options: [ ]
   },
   {
     id: 19,
+    text: 'Sam gives you a big smile and starts to enthusiastically speak about the book! You have a stimulating conversation for a few minutes.',
+    nextPage: 20,
+    image: 'cafe.jpg',
+    mobile: 'scenes/mobileNone.png',
+    avatar: 'bigSmileMan.png',
+    options: [ ]
+  },
+  {
+    id: 20,
+    text: 'After a while you can see the conversation is getting to a standstill. You decide that you need some bff assistance and excuse yourself from the table.',
+    nextPage: 21,
+    image: 'cafe.jpg',
+    mobile: 'scenes/mobileNone.png',
+    avatar: 'manSmile.png',
+    options: [ ]
+  },
+  {
+    id: 21,
     text: [''],
     image: 'cafe.jpg',
     mobile: 'scenes/mobile.gif',
@@ -241,141 +260,141 @@ const pages = [
       {
         text: 'Continue',
         score: 0,
-        nextPage: 20
-      }
-    ]
-  },
-  {
-    id: 20,
-    text: 'On your way back to the table, as well as considering getting a new BFF, you can see Sam is about to get up. You try and get yourself back into conversation by saying:',
-    nextPage: 21,
-    image: 'cafe.jpg',
-    mobile: 'scenes/mobileNone.png',
-    avatar: 'avatar1.png',
-    options: [ ]
-  },
-  {
-    id: 21,
-    text: [''],
-    image: 'cafe.jpg',
-    mobile: 'scenes/mobileNone.png',
-    avatar: 'avatar1.png',
-    options: [
-      {
-        text: 'Do you want another drink?',
-        score: 1,
         nextPage: 22
-      },
-      {
-        text: 'You can´t leave yet!',
-        score: 0,
-        nextPage: 23
-      },
-      {
-        text: 'Leaving so soon?',
-        score: 2,
-        nextPage: 24
       }
     ]
   },
   {
     id: 22,
-    text: 'Sam smiles at you but declines your offer, he needs to get going and catch the next train.',
-    nextPage: 25,
+    text: 'On your way back to the table, as well as considering getting a new BFF, you can see Sam is about to get up. You try and get yourself back into conversation by saying:',
+    nextPage: 23,
     image: 'cafe.jpg',
     mobile: 'scenes/mobileNone.png',
-    avatar: 'avatar1.png',
+    avatar: 'manSmile.png',
     options: [ ]
   },
   {
     id: 23,
-    text: 'Sam looks at you like you have grown two heads. He lets you know that he needs to get going and catch the next train.',
-    nextPage: 25,
-    image: 'cafe.jpg',
-    mobile: 'scenes/mobileNone.png',
-    avatar: 'avatar1.png',
-    options: [ ]
-  },
-  {
-    id: 24,
-    text: 'Sam gives you a smile but tells you that he needs to get going and catch the next train.',
-    nextPage: 25,
-    image: 'cafe.jpg',
-    mobile: 'scenes/mobileNone.png',
-    avatar: 'avatar1.png',
-    options: [ ]
-  },
-  {
-    id: 25,
-    text: 'You are considering all your options and hoping that it is the right decision you ask:',
-    nextPage: 26,
-    image: 'cafe.jpg',
-    mobile: 'scenes/mobileNone.png',
-    avatar: 'avatar1.png',
-    options: [ ]
-  },
-   {
-    id: 26,
     text: [''],
     image: 'cafe.jpg',
     mobile: 'scenes/mobileNone.png',
-    avatar: 'avatar1.png',
+    avatar: 'none.png',
     options: [
       {
-        text: 'What if I follow you to the train stop? Or give me your number and I´ll let you go!',
-        score: 0,
-        nextPage: 27
-      },
-      {
-        text: 'It was really nice talking to you, it seems like we have a lot in common. Would you like to keep in touch?',
-        score: 2,
-        nextPage: 28
-      },
-      {
-        text: 'Ahh, okay, well it was cool to meet you! Let´s exchange numbers!',
+        text: 'Do you want another drink?',
         score: 1,
-        nextPage: 29
+        nextPage: 24
+      },
+      {
+        text: 'You can´t leave yet!',
+        score: 0,
+        nextPage: 25
+      },
+      {
+        text: 'Leaving so soon?',
+        score: 2,
+        nextPage: 26
       }
     ]
   },
   {
-    id: 27,
-    text: 'Sam gives you a tiny smile, and ends up scribbling some numbers down on a napkin.',
-    nextPage: 30,
+    id: 24,
+    text: 'Sam smiles at you but declines your offer, he needs to get going and catch the next train.',
+    nextPage: 27,
     image: 'cafe.jpg',
     mobile: 'scenes/mobileNone.png',
-    avatar: 'avatar1.png',
+    avatar: 'bigSmileMan.png',
     options: [ ]
   },
   {
-    id: 28,
-    text: 'Sam gently asks for your phone and you exchange numbers.',
-    nextPage: 30,
+    id: 25,
+    text: 'Sam looks at you like he is not sure if you´re talking to him. Though he lets you know that he needs to get going and catch the next train.',
+    nextPage: 27,
     image: 'cafe.jpg',
     mobile: 'scenes/mobileNone.png',
-    avatar: 'avatar1.png',
+    avatar: 'surprisedMan.png',
     options: [ ]
+  },
+  {
+    id: 26,
+    text: 'Sam gives you a smile but tells you that he needs to get going and catch the next train.',
+    nextPage: 27,
+    image: 'cafe.jpg',
+    mobile: 'scenes/mobileNone.png',
+    avatar: 'waveMan.png',
+    options: [ ]
+  },
+  {
+    id: 27,
+    text: 'You are considering all your options and hoping that it is the right decision you ask:',
+    nextPage: 28,
+    image: 'cafe.jpg',
+    mobile: 'scenes/mobileNone.png',
+    avatar: 'none.png',
+    options: [ ]
+  },
+   {
+    id: 28,
+    text: [''],
+    image: 'cafe.jpg',
+    mobile: 'scenes/mobileNone.png',
+    avatar: 'none.png',
+    options: [
+      {
+        text: 'So give me your number and I´ll let you go!',
+        score: 0,
+        nextPage: 29
+      },
+      {
+        text: 'It seem like we have a lot in common. Would you like to keep in touch?',
+        score: 2,
+        nextPage: 30
+      },
+      {
+        text: 'Ahh, okay, it was cool to meet you! Let´s exchange numbers!',
+        score: 1,
+        nextPage: 31
+      }
+    ]
   },
   {
     id: 29,
-    text: 'Sam grabs your hand and writes his number on your arm with his pen.',
-    nextPage: 30,
+    text: 'Sam gives you a tiny smile, and ends up scribbling some numbers down on a napkin.',
+    nextPage: 32,
     image: 'cafe.jpg',
     mobile: 'scenes/mobileNone.png',
-    avatar: 'avatar1.png',
+    avatar: 'manSmile.png',
     options: [ ]
   },
   {
     id: 30,
-    text: 'Then Sam leaves the coffee shop, and you were by yourself, feeling excited and proud of yourself for at least daring to take a chance. Now the question is: where will this go?',
-    nextPage: 31,
+    text: 'Sam gently asks for your phone and you exchange numbers.',
+    nextPage: 32,
+    image: 'cafe.jpg',
+    mobile: 'scenes/mobileNone.png',
+    avatar: 'manSmile.png',
+    options: [ ]
+  },
+  {
+    id: 31,
+    text: 'Sam grabs your hand and writes his number on your arm with his pen.',
+    nextPage: 32,
+    image: 'cafe.jpg',
+    mobile: 'scenes/mobileNone.png',
+    avatar: 'bigSmileMan.png',
+    options: [ ]
+  },
+  {
+    id: 32,
+    text: 'Then Sam leaves the coffee shop, and you were by yourself, feeling excited and proud of yourself for at least daring to take a chance. Now the question is:',
+    nextPage: 33,
     image: 'cafe.jpg',
     mobile: 'scenes/mobileNone.png',
     avatar: 'none.png',
     options: [ ]
   },
   {
-    id: 31,
+    id: 33,
     text: [''],
     image: 'street.jpg',
     mobile: 'scenes/mobileNone.png',
