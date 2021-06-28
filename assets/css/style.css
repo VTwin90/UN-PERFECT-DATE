@@ -208,8 +208,8 @@ header {
 
     @media only screen and (min-width: 768px) {
         .btn {
-            font-size: xx-large;
-            width: 60%;
+            font-size: x-large;
+            max-width: 60%;
             padding: 40px 0;
         }
 
@@ -217,20 +217,28 @@ header {
 
     @media only screen and (min-width: 992px) {
         .headbanner {
-            font-size: 170%;
+            font-size: 90%;
         }
+         .logo {
+            max-width: 50%;
+        }
+
+        .btn {
+            max-width: 40%;
+        }
+        
     }
 
     @media only screen and (min-width: 1500px) {
         .headbanner {
-            font-size: 220%;
+            font-size: 180%;
         }
 
         .logo {
-            max-width: 100%;
+            max-width: 35%;
         }
         
         .btn {
-            max-width: 60%;
+            max-width: 30%;
         }
     }
