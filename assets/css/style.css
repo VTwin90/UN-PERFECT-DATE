@@ -237,8 +237,12 @@ header {
         .logo {
             max-width: 35%;
         }
+
+        .options.btn {
+            max-width: 70%;
+        }
         
         .btn {
-            max-width: 30%;
+            max-width: 50%;
         }
     }
