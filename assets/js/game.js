@@ -1,6 +1,8 @@
 const pageElement = document.getElementById('text');
 const optionButtonsElement = document.getElementById('option-buttons');
 const imageElement = document.getElementById('scene');
+const avatarElement = document.getElementById('avatar');
+const mobileElement = document.getElementById('mobile');
 const textContainer = document.getElementById('textContainer');
 
 let state = {};
@@ -17,6 +19,8 @@ function startGame() {
 function showPage(pageIndex) {
     const page = pages.find(page => page.id === pageIndex);
     document.getElementById('scene').src = 'assets/images/scenes/' + page.image;
+    document.getElementById('avatar').src = 'assets/images/avatar/' + page.avatar;
+    document.getElementById('mobile').src = 'assets/images/' + page.mobile;
 
 //Removes btn and text
     optionButtonsElement.innerHTML = '';
