@@ -56,14 +56,14 @@ header {
     z-index: 1;
 }
 
-#mobile{
+#mobile {
     position: absolute;
-     background-position: center center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
     object-fit: cover;
-    margin: auto;
+
 }
 
 /*The Blond Woman */
@@ -115,10 +115,8 @@ header {
 }
 
 .logo {
-    position: absolute;
-    left: 4%;
-    top: 57%;
-    max-width: 95%;
+    max-width: 80%;
+    height: auto;
 }
 
 #scene {
@@ -149,7 +147,6 @@ header {
     font-family: 'Montserrat', sans-serif;
     background-color: #0A6CA3;
     opacity: 0.9;
-    width: 800px;
     max-width: 80%;
     padding: 5%;
     border-radius: 5px;
@@ -173,14 +170,15 @@ header {
 .btn {
     background-color: #0A6CA3;
     opacity: 0.9;
-    width: 200px;
-    height: 70px;
+    width: 70%;
+    height: auto;
+    font-size: large;
     border: 1px solid #013D60;
     border-radius: 20px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding: 5px 10px;
+    padding: 20px 0;
     z-index: 1;
     color: #FFFFFF;
     outline: none;
@@ -220,6 +218,8 @@ header {
     justify-content: center;
     color: #FFFFFF;
     background: #0A6CA3 transition: all 0.35s ease-in-out;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .social-links li a i:hover {
@@ -228,3 +228,57 @@ header {
     border-color: #013D60;
     background-image: linear-gradient(135deg, #0A6CA3 5%, #0C81C2 15%, #2FE3FE 50%, #FFFFFF 100%);
 }
+
+
+/*  Media Screens*/
+@media only screen and (min-width: 100px) {
+    .logo {
+        max-width: 100%;
+    }
+
+
+@media only screen and (min-width: 300px) {
+    .logo {
+        max-width: 100%;
+    }
+
+    @media only screen and (min-width: 500px) {
+
+        .headbanner {
+            font-size: 120%;
+        }
+
+        .logo {
+            max-width: 80%;
+        }
+
+    }
+
+    @media only screen and (min-width: 768px) {
+        .btn {
+            font-size: xx-large;
+            width: 60%;
+            padding: 40px 0;
+        }
+
+    }
+
+    @media only screen and (min-width: 992px) {
+        .headbanner {
+            font-size: 170%;
+        }
+    }
+
+    @media only screen and (min-width: 1500px) {
+        .headbanner {
+            font-size: 220%;
+        }
+
+        .logo {
+            max-width: 100%;
+        }
+        
+        .btn {
+            max-width: 60%;
+        }
+    }
