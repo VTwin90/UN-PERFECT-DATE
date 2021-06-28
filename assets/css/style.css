@@ -49,6 +49,24 @@ header {
         0 -1px #013D60;
 }
 
+#avatar {
+    position: absolute;
+    max-width: 38%;
+    top: 39%;
+    left: 50%;
+    z-index: 1;
+}
+
+#mobile{
+    position: absolute;
+     background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    object-fit: cover;
+    margin: auto;
+}
+
 /*The Blond Woman */
 .avatar1 {
     position: absolute;
@@ -110,6 +128,7 @@ header {
     background-size: cover;
     height: 100%;
     object-fit: cover;
+    margin: auto;
 }
 
 .btnContainer {
@@ -136,7 +155,7 @@ header {
     padding: 5%;
     border-radius: 5px;
     margin-top: 50px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     justify-content: center;
     align-items: center;
     display: block;
@@ -148,15 +167,15 @@ header {
     display: grid;
     grid-template-columns: repeat(1, auto);
     gap: 10px;
-    margin-bottom: 150px;
+    margin-bottom: 10%;
     z-index: 1;
 }
 
 .btn {
     background-color: #0A6CA3;
     opacity: 0.9;
-    width: 250px;
-    height: 100px;
+    width: 200px;
+    height: 70px;
     border: 1px solid #013D60;
     border-radius: 20px;
     display: block;
