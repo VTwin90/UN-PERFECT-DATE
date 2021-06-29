@@ -16,68 +16,87 @@
     <link rel="shortcut icon" type="image/png" href="">
     <link rel="manifest" href="">
     <!--Stylesheets-->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>(Un)Perfect Date</title>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
-<script type="text/javascript">
-(function() {
-emailjs.init("user_cYgKYhiKmPdeOuygEcz8G");
-})();
-</script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("user_cYgKYhiKmPdeOuygEcz8G");
+        })();
+    </script>
 </head>
 
 <body>
- <header>
-    <p class="headbanner">NEW STORIES AND CHARACTERS COMING SOON!</p>
- </header>
+    <header>
+        <p class="headbanner">NEW STORIES AND CHARACTERS COMING SOON!</p>
+    </header>
 
-<section class="container-fluid">
+    <section class="container-fluid">
         <div>
             <div class="col-12">
-                 <img src="assets/images/indeximg.png" class="img-fluid mx-auto d-block logo" alt="..."/>
-            </div> 
-             <div class ="btn-grid">
-                <a type="button" class="btn btn-dark" href="game.html">Start</a>
-                <button type="button" class="btn btn-dark howtoplaybtn" data-bs-toggle="modal" data-bs-target="#howtoplayModal">How To Play</button>
-                <button type="button" class="btn btn-dark contactbtn" data-bs-toggle="modal" data-bs-target="#contactModal">Contact</button>
-             </div>
+                <img src="assets/images/indeximg.png" class="img-fluid mx-auto d-block logo" alt="landing logo and image of characters"/>
+            </div>
+            <div class="btn-grid">
+                <a role="button" id="startbtn" class="btn btn-dark" href="game.html">Start</a>
+                <button type="button" id="howtoplaybtn" class="btn btn-dark" data-bs-toggle="modal"
+                    data-bs-target="#howtoplayModal">How To Play</button>
+                <button type="button" id="contactbtn" class="btn btn-dark " data-bs-toggle="modal"
+                    data-bs-target="#contactModal">Contact</button>
+            </div>
         </div>
+    </section>
 
+    <!--Modal for How To Play-->
+    <section class="modal fade" id="howtoplayModal" tabindex="-1" aria-labelledby="howtoplayModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title" id="howtoplayModalLabel">How to Play</h1>
+                    <button type="button" class="btn-close btn-light" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Hey and welcome to THE (UN)PERFECT DATE game. To play this game just click or tap on the blue
+                        text box or buttons to move forward in the story.
+                        <br>
+                        <br>
+                        As in real life, you will have to make decisions and choose different options that will have
+                        consequences down the line.
+                        <br>
+                        <br>
+                        Good luck in playing the game, and luckily if you do not get the ending you want you can always
+                        try again. Have fun!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
- <!--Modal for How To Play-->  
- <div class="modal fade" id="howtoplayModal" tabindex="-1" aria-labelledby="howtoplayModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title" id="howtoplayModalLabel">How to Play</h1>
-      </div>
-      <div class="modal-body">
-          <p>blablablabla</p>
-      </div>
-    </div>
-  </div>
-</div>  
-
- <!--Modal for Contact--> 
- <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title" id="contactModalLabel">Contact</h1>
-      </div>
-      <div class="modal-body">
-        <form onsubmit="return sendMail(this);">
-            <input type="text" name="name" class="form-control form-validation mb-3" id="fullname" placeholder="Your Name" required/>
-            <input type="text" name="emailaddress" class="form-control form-validation mb-3" id="emailaddress" placeholder="Your Email" required/>
-            <textarea rows="5" name="message" class="form-control form-validation mb-3" id="message" placeholder="Your Message" required></textarea>
-            <button type="submit" class="btn btn-secondary center-block">Send Message</button>
-        </form>
-      </div>
-      <div class="modal-footer">
-            <div class="row">
-                <div class="col-12">
+    <!--Modal for Contact-->
+    <section class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title" id="contactModalLabel">Contact</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form onsubmit="return sendMail(this);">
+                        <input type="text" name="name" class="form-control form-validation mb-3" id="fullname"
+                            placeholder="Your Name" required />
+                        <input type="text" name="emailaddress" class="form-control form-validation mb-3"
+                            id="emailaddress" placeholder="Your Email" required />
+                        <textarea rows="5" name="message" class="form-control form-validation mb-3" id="message"
+                            placeholder="Your Message" required></textarea>
+                        <button type="submit" id="contactbtn" class="btn btn-secondary center-block">Send
+                            Message</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
                     <ul class="social-links mx-auto d-block">
                         <li class="list-inline-item">
                             <a target="_blank" rel="noopener" href="https://github.com/VTwin90">
@@ -98,27 +117,26 @@ emailjs.init("user_cYgKYhiKmPdeOuygEcz8G");
                             </a>
                         </li>
                     </ul>
-                 </div>   
-            </div>   
-      </div>
-    </div>
-  </div>
-</div>
+                </div>
+            </div>
+    </section>
 
 
-<!--
- <modal class="modal fade modal" id="contact-modal" tabindex="-1" aria-labelledby="contact-modal" aria-hidden="true">
-    <h1>Contact</h1>
-    <form onsubmit="return sendMail(this);">
-        <input type="text" name="name" class="form-control form-validation mb-3" id="fullname" placeholder="Your Name" required/>
-        <input type="text" name="emailaddress" class="form-control form-validation mb-3" id="emailaddress" placeholder="Your Email" required/>
-        <textarea rows="5" name="message" class="form-control form-validation mb-3" id="message" placeholder="Your Message" required></textarea>
-        <button type="submit" class="btn btn-secondary center-block">Send Message</button>
-    </form>
-</modal>
+    <!--
+    <modal class="modal fade modal" id="contact-modal" tabindex="-1" aria-labelledby="contact-modal" aria-hidden="true">
+        <h1>Contact</h1>
+        <form onsubmit="return sendMail(this);">
+            <input type="text" name="name" class="form-control form-validation mb-3" id="fullname" placeholder="Your Name" required/>
+            <input type="text" name="emailaddress" class="form-control form-validation mb-3" id="emailaddress" placeholder="Your Email" required/>
+            <textarea rows="5" name="message" class="form-control form-validation mb-3" id="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn btn-secondary center-block">Send Message</button>
+        </form>
+    </modal>
 
--->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
     <script type="text/javascript" src="assets/js/mail.js"></script>
 </body>
 
