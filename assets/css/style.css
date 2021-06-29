@@ -7,7 +7,6 @@
     box-sizing: border-box;
 }
 
-
 html {
     height: 100%;
 }
@@ -58,7 +57,6 @@ header {
     background-size: cover;
     height: 100%;
     object-fit: cover;
-
 }
 
 .logo {
@@ -108,12 +106,14 @@ header {
 #startbtn,
 #howtoplaybtn,
 #contactbtn,
-#modalbtn {
+#modalbtn,
+#tryAgainBtn {
     max-width: 60%;
     height: auto;
+    margin-bottom: 15px;
 }
 
-#modalbtn{
+#modalbtn {
     max-width: 60%;
     height: auto;
 }
@@ -194,6 +194,27 @@ header {
 }
 
 
+/* End Pages */
+#end-text {
+    color: #FFFFFF;
+    text-shadow:
+        -1px 0 #013D60,
+        0 1px #013D60,
+        1px 0 #013D60,
+        0 -1px #013D60;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 /*  Media Screens*/
 @media only screen and (min-width: 100px) {
     .logo {
@@ -220,7 +241,8 @@ header {
 
     #startbtn,
     #howtoplaybtn,
-    #contactbtn {
+    #contactbtn,
+    #tryAgainBtn {
         max-width: 50%;
     }
 
@@ -231,11 +253,16 @@ header {
         top: 20%;
         left: 35%;
     }
+
+    #end-text {
+        padding: 0 15%;
+        font-size: 200%;
+    }
 }
 
 @media only screen and (min-width: 992px) {
     .headbanner {
-        font-size: 90%;
+        font-size: 140%;
     }
 
     #avatar {
@@ -245,10 +272,11 @@ header {
 
     #startbtn,
     #howtoplaybtn,
-    #contactbtn {
+    #contactbtn,
+    #tryAgainBtn {
         max-width: 30%;
     }
-    
+
 }
 
 @media only screen and (min-width: 1500px) {
@@ -262,7 +290,8 @@ header {
 
     #startbtn,
     #howtoplaybtn,
-    #contactbtn {
+    #contactbtn,
+    #tryAgainBtn {
         max-width: 25%;
     }
 }
