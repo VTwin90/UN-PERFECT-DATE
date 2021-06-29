@@ -104,12 +104,14 @@ const pages = [
         text: 'Woman',
         score: 0,
         nextPage: 34
-      },
+      }
+      /*,
       {
         text: 'I don`t dare, walk out the door',
         score: 0,
         nextPage: 63
       }
+      */
     ]
   },
   {
@@ -701,10 +703,10 @@ const pages = [
         nextPage: -1
       }
     ]
-  },
+  } //,
 
  ////Froze up storyline
-  {
+  /* {
     id: 63,
     text: 'You froze up, could not make a decision and went back home to enjoy your drink.',
     nextPage: 64,
@@ -722,5 +724,5 @@ const pages = [
         nextPage: -1
       }
     ]
-  }
+  } */
 ];
