@@ -5,15 +5,10 @@
     padding: 0px;
     max-width: 100%;
     box-sizing: border-box;
-    -webkit-font-smoothing: subpixel-antialiased;
 }
 
 
 html {
-    background-color: #0A6CA3;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
     height: 100%;
 }
 
@@ -110,6 +105,19 @@ header {
     margin-right: auto;
 }
 
+#startbtn,
+#howtoplaybtn,
+#contactbtn,
+#modalbtn {
+    max-width: 60%;
+    height: auto;
+}
+
+#modalbtn{
+    max-width: 60%;
+    height: auto;
+}
+
 .btn-grid {
     display: grid;
     grid-template-columns: repeat(1, auto);
@@ -158,6 +166,10 @@ header {
     justify-content: center;
 }
 
+.mx-auto {
+    padding-right: 10%;
+}
+
 .social-links li a i {
     width: 52px;
     height: 52px;
@@ -168,7 +180,8 @@ header {
     text-align: center;
     justify-content: center;
     color: #FFFFFF;
-    background: #0A6CA3 transition: all 0.35s ease-in-out;
+    background: #0A6CA3;
+    transition: all 0.35s ease-in-out;
     margin-right: auto;
     margin-left: auto;
 }
@@ -186,75 +199,70 @@ header {
     .logo {
         max-width: 100%;
     }
+}
 
 
-    @media only screen and (min-width: 300px) {
-        .logo {
-            max-width: 100%;
-        }
+@media only screen and (min-width: 300px) {
+    .logo {
+        max-width: 100%;
+    }
+}
 
-        @media only screen and (min-width: 500px) {
+@media only screen and (min-width: 500px) {
 
-            .headbanner {
-                font-size: 120%;
-            }
+    .headbanner {
+        font-size: 120%;
+    }
 
-            .logo {
-                max-width: 80%;
-            }
+    .logo {
+        max-width: 80%;
+    }
 
-        }
+    #startbtn,
+    #howtoplaybtn,
+    #contactbtn {
+        max-width: 50%;
+    }
 
-        @media only screen and (min-width: 768px) {
-            .btn {
-                max-width: 60%;
-                padding: 40px 0;
-            }
+}
 
-            #avatar {
-                top: 20%;
-                left: 35%;
-            }
-        }
+@media only screen and (min-width: 768px) {
+    #avatar {
+        top: 20%;
+        left: 35%;
+    }
+}
 
-        @media only screen and (min-width: 992px) {
-            .headbanner {
-                font-size: 90%;
-            }
+@media only screen and (min-width: 992px) {
+    .headbanner {
+        font-size: 90%;
+    }
 
-            .logo {
-                max-width: 35%;
-            }
+    #avatar {
+        top: 20%;
+        left: 45%;
+    }
 
-            .btn {
-                max-width: 40%;
-            }
+    #startbtn,
+    #howtoplaybtn,
+    #contactbtn {
+        max-width: 30%;
+    }
+    
+}
 
-             #avatar {
-                top: 20%;
-                left: 45%;
-            }
+@media only screen and (min-width: 1500px) {
+    .headbanner {
+        font-size: 180%;
+    }
 
-        }
+    .text {
+        font-size: xx-large;
+    }
 
-        @media only screen and (min-width: 1500px) {
-            .headbanner {
-                font-size: 180%;
-            }
-
-            .logo {
-                max-width: 35%;
-            }
-
-            .options.btn {
-                max-width: 70%;
-            }
-
-            .btn {
-                max-width: 50%;
-            }
-
-            .text {
-                font-size: xx-large;
-            }
-        }
+    #startbtn,
+    #howtoplaybtn,
+    #contactbtn {
+        max-width: 25%;
+    }
+}
