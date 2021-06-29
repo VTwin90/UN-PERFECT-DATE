@@ -1,3 +1,6 @@
+const textElement = document.getElementById('text');
+const pageElement = document.getElementById('text');
+const imageElement = document.getElementById('scene');
 const optionButtonsElement = document.getElementById('option-buttons');
 const textContainer = document.getElementById('textContainer');
 
@@ -18,11 +21,11 @@ function showPage(pageIndex) {
     document.getElementById('avatar').src = 'assets/images/avatar/' + page.avatar;
     document.getElementById('mobile').src = 'assets/images/' + page.mobile;
 
-//Removes btn and text
+    //Removes btn and text
     optionButtonsElement.innerHTML = '';
     textContainer.innerHTML = '';
 
-//Adds either a option btn or text container
+    //Adds either a option btn or text container
     if (page.options.length === 0) {
         const text = document.createElement('div');
         text.innerText = page.text;
@@ -59,10 +62,15 @@ function selectOption(option) {
 function showEnding(score) {
     if (score <= 4) {
         window.location.href = 'end.html';
-        console.log('ending1');
-    } else if (score <= 8) {
+
+        console.log('end1');
+
+    } else if (score <= 6) {
+        window.location.href = 'endTwo.html';
+
         console.log('ending2');
     } else {
+        window.location.href = 'endThree.html';
         console.log('ending3');
     }
 }
