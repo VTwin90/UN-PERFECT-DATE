@@ -1,6 +1,3 @@
-const textElement = document.getElementById('text');
-const pageElement = document.getElementById('text');
-const imageElement = document.getElementById('scene');
 const optionButtonsElement = document.getElementById('option-buttons');
 
 
@@ -28,7 +25,7 @@ function showPage(pageIndex) {
     
     //Adds either a option btn or text container
     if (page.options.length === 0) {
-        const textContainerClone = textContainer.cloneNode(true)
+        const textContainerClone = textContainer.cloneNode(true);
         const text = document.createElement('div');
         text.innerText = page.text;
         text.id = 'text';
