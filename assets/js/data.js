@@ -1,4 +1,3 @@
-
 const pages = [
   {
     id: 1,
@@ -105,13 +104,6 @@ const pages = [
         score: 0,
         nextPage: 34
       }
-      /*,
-      {
-        text: 'I don`t dare, walk out the door',
-        score: 0,
-        nextPage: 63
-      }
-      */
     ]
   },
   {
@@ -176,7 +168,7 @@ const pages = [
   },
   {
     id: 14,
-    text: 'After giving each other´s names and a couple of minutes of awkward silence, you start to observe more about Sam.',
+    text: 'You introduce yourself, and he tells you his name is Sam. After a couple of minutes of awkward silence, you start to observe more about Sam.',
     nextPage: 15,
     image: 'cafe.jpg',
     mobile: 'scenes/mobileNone.png',
@@ -388,7 +380,7 @@ const pages = [
   },
   {
     id: 32,
-    text: 'Then Sam leaves the coffee shop, and you were by yourself, feeling excited and proud of yourself for at least daring to take a chance. Now the question is:',
+    text: 'Then Sam leaves the cafe, and you were by yourself, feeling excited and proud of yourself for at least daring to take a chance. Now the question is:',
     nextPage: 33,
     image: 'cafe.jpg',
     mobile: 'scenes/mobileNone.png',
@@ -472,7 +464,7 @@ const pages = [
   },
   {
     id: 39,
-    text: 'After giving each other´s names and a couple of minutes of awkward silence, you start to observe more about Sam.',
+    text: 'You introduce yourself, and she tells you her name is Sam. After a couple of minutes of awkward silence, you start to observe more about Sam.',
     nextPage: 40,
     image: 'cafe.jpg',
     mobile: 'scenes/mobileNone.png',
@@ -684,7 +676,7 @@ const pages = [
   },
   {
     id: 57,
-    text: 'Then Sam leaves the coffee shop, and you were by yourself, feeling excited and proud of yourself for at least daring to take a chance. Now the question is:',
+    text: 'Then Sam leaves the cafe, and you were by yourself, feeling excited and proud of yourself for at least daring to take a chance. Now the question is:',
     nextPage: 58,
     image: 'cafe.jpg',
     mobile: 'scenes/mobileNone.png',
@@ -703,26 +695,5 @@ const pages = [
         nextPage: -1
       }
     ]
-  } //,
-
- ////Froze up storyline
-  /* {
-    id: 63,
-    text: 'You froze up, could not make a decision and went back home to enjoy your drink.',
-    nextPage: 64,
-    image: 'street.jpg',
-    options: [
-    ]
-  },
-  {
-    id: 64,
-    text: [''],
-    image: 'street.jpg',
-    options: [
-      {
-        text: 'What do the future hold for you?',
-        nextPage: -1
-      }
-    ]
-  } */
+  } 
 ];
