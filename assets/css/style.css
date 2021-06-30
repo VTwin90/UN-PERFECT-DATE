@@ -137,7 +137,7 @@ header {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding: 20px 0;
+    padding: 5% 5% 5% 5%;
     z-index: 1;
     color: #FFFFFF;
     outline: none;
@@ -293,5 +293,37 @@ header {
     #contactbtn,
     #tryAgainBtn {
         max-width: 25%;
+    }
+}
+
+@media (orientation: landscape) {
+    body {
+        flex-direction: row;
+    }
+
+    #avatar {
+        max-width: 40%;
+        top: 10%;
+        left: 50%;
+    }
+
+    #text {
+        padding: 3%;
+    }
+
+    #scene {
+        width: 100%;
+    }
+
+    .btnContainer {
+        padding: 0%;
+    }
+
+    .btn-grid {
+        margin-bottom: 5%;
+    }
+
+    .btn {
+        padding: 2% 2% 2% 2%;
     }
 }
