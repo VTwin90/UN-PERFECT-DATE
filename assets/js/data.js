@@ -395,7 +395,7 @@ const pages = [
     avatar: 'none.png',
     options: [
       {
-        text: 'What do the future hold for you?',
+        text: 'What does the future hold for you?',
         nextPage: -1
       }
     ]
@@ -691,7 +691,7 @@ const pages = [
     avatar: 'none.png',
     options: [
       {
-        text: 'What do the future hold for you?',
+        text: 'What does the future hold for you?',
         nextPage: -1
       }
     ]
