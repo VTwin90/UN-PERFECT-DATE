@@ -122,7 +122,7 @@ header {
     display: grid;
     grid-template-columns: repeat(1, auto);
     gap: 10px;
-    margin-bottom: 10%;
+    margin-bottom: 60%;
     z-index: 1;
 }
 
@@ -166,8 +166,16 @@ header {
     justify-content: center;
 }
 
+/*
 .mx-auto {
     padding-right: 10%;
+}
+*/
+
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .social-links li a i {
@@ -220,12 +228,18 @@ header {
     .logo {
         max-width: 100%;
     }
+    #mobile {
+        width: -webkit-fill-available;
+    }    
 }
 
 
 @media only screen and (min-width: 300px) {
     .logo {
         max-width: 100%;
+    }
+    #mobile {
+        width: -webkit-fill-available;
     }
 }
 
@@ -244,6 +258,10 @@ header {
     #contactbtn,
     #tryAgainBtn {
         max-width: 50%;
+    }
+
+    #mobile {
+        width: -webkit-fill-available;
     }
 
 }
@@ -294,6 +312,9 @@ header {
     #tryAgainBtn {
         max-width: 25%;
     }
+     #mobile {
+        width: auto;
+    }
 }
 
 @media (orientation: landscape) {
@@ -320,10 +341,14 @@ header {
     }
 
     .btn-grid {
-        margin-bottom: 5%;
+        margin-bottom: 15%;
     }
 
     .btn {
         padding: 2% 2% 2% 2%;
+    }
+
+     #mobile {
+        width: auto;
     }
 }
