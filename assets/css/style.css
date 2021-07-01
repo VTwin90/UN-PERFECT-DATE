@@ -43,11 +43,14 @@ header {
 }
 
 #avatar {
-    position: fixed;
-    max-width: 80%;
-    top: 35%;
-    left: 35%;
     z-index: 1;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80%;
+    object-fit: cover;
+    margin: auto;
+    top: 40%;
 }
 
 #mobile {
@@ -267,10 +270,6 @@ header {
 }
 
 @media only screen and (min-width: 768px) {
-    #avatar {
-        top: 20%;
-        left: 35%;
-    }
 
     #end-text {
         padding: 0 15%;
@@ -278,14 +277,9 @@ header {
     }
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 980px) {
     .headbanner {
         font-size: 140%;
-    }
-
-    #avatar {
-        top: 20%;
-        left: 45%;
     }
 
     #startbtn,
@@ -320,12 +314,6 @@ header {
 @media (orientation: landscape) {
     body {
         flex-direction: row;
-    }
-
-    #avatar {
-        max-width: 40%;
-        top: 10%;
-        left: 50%;
     }
 
     #text {
