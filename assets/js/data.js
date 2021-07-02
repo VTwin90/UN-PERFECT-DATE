@@ -335,17 +335,17 @@ const pages = [
     avatar: 'none.png',
     options: [
       {
-        text: 'So give me your number and I´ll let you go!',
+        text: 'So give me your number!',
         score: 0,
         nextPage: 29
       },
       {
-        text: 'It seem like we have a lot in common. Would you like to keep in touch?',
+        text: 'Would you like to keep in touch?',
         score: 2,
         nextPage: 30
       },
       {
-        text: 'Ahh, okay, it was cool to meet you! Let´s exchange numbers!',
+        text: 'Ok, how about we exchange numbers!',
         score: 1,
         nextPage: 31
       }
@@ -631,17 +631,17 @@ const pages = [
     avatar: 'none.png',
     options: [
       {
-        text: 'So give me your number and I´ll let you go!',
+        text: 'So give me your number!',
         score: 0,
         nextPage: 54
       },
       {
-        text: 'It seem like we have a lot in common. Would you like to keep in touch?',
+        text: 'Would you like to keep in touch?',
         score: 2,
         nextPage: 55
       },
       {
-        text: 'Ahh, okay, it was cool to meet you! Let´s exchange numbers!',
+        text: 'Ok, how about we exchange numbers!',
         score: 1,
         nextPage: 56
       }
