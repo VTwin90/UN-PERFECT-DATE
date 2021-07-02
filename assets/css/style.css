@@ -231,19 +231,15 @@ header {
 
 /*  Media Screens*/
 @media only screen and (min-width: 100px) {
-   /* .logo {
-        max-width: 30%;
-    } */
+
     #mobile {
         width: -webkit-fill-available;
-    }    
+    }
 }
 
 
 @media only screen and (min-width: 300px) {
-   /* .logo {
-        max-width: 30%;
-    } */
+   
     #mobile {
         width: -webkit-fill-available;
     }
@@ -254,10 +250,6 @@ header {
     .headbanner {
         font-size: 120%;
     }
-/*
-    .logo {
-        max-width: 30%;
-    } */
 
     #startbtn,
     #howtoplaybtn,
@@ -267,7 +259,8 @@ header {
     }
 
     #mobile {
-        width: -webkit-fill-available;
+        width: auto;
+        height: 70%;
     }
 
 }
@@ -278,10 +271,10 @@ header {
         padding: 0 15%;
         font-size: 200%;
     }
-    /*
+
     .logo {
         max-width: 40%;
-    } */
+    } 
 }
 
 @media only screen and (min-width: 980px) {
@@ -295,23 +288,27 @@ header {
     #tryAgainBtn {
         max-width: 30%;
     }
-/*
+
     .logo {
         max-width: 50%;
-    } */
+    } 
 
 }
 
 @media only screen and (min-width: 1020px) {
-   .logo {
+    .logo {
         max-width: 45%;
-    } 
+    }
 
     #startbtn,
     #howtoplaybtn,
     #contactbtn,
     #tryAgainBtn {
         max-width: 40%;
+    }
+
+    .btn {
+        width: 50%;
     }
 
 }
@@ -332,12 +329,12 @@ header {
         max-width: 16%;
     }
 
-    .btn-secondary{
+    .btn-secondary {
         max-width: 50%;
 
     }
 
-     #mobile {
+    #mobile {
         width: auto;
     }
 
@@ -371,7 +368,7 @@ header {
         padding: 2% 2% 2% 2%;
     }
 
-     #mobile {
+    #mobile {
         width: auto;
     }
 }
