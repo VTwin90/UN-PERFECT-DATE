@@ -1,7 +1,7 @@
 const pages = [
   {
     id: 1,
-    text: 'It is a beautiful day and you are walking through your hometown street. You´re passing by people, just being in your own little world.',
+    text: 'It is a beautiful day and you are walking through your hometown. You´re passing people, in your own little world.',
     nextPage: 2,
     score: 0,
     image: 'street.jpg',
@@ -23,7 +23,7 @@ const pages = [
   },
   {
     id: 3,
-    text: 'While inside you can see it is buzzing with customers, and the smell of coffee and bakeries brings you joy.',
+    text: 'While inside you can see it is buzzing with customers, and the smell of coffee and baked goods brings you joy.',
     nextPage: 4,
     score: 0,
     image: 'cafe.jpg',
@@ -34,7 +34,7 @@ const pages = [
   },
   {
     id: 4,
-    text: 'You enter the line, look through the menu, and three minutes after, the line is cleared and the cute barista asks what you want.',
+    text: 'You enter the line and look through the menu. 3 minutes later the line is cleared and the cute barista asks what you want.',
     nextPage: 5,
     score: 0,
     image: 'cafe.jpg',
@@ -69,7 +69,7 @@ const pages = [
   },
   {
     id: 6,
-    text: 'You wait for your order and after five minutes your name gets called. You grab your items and then look around to see if there are any available seats.',
+    text: 'You wait for your order and after 5 minutes your name gets called. You grab your items and then look around to see if there are any available seats.',
     nextPage: 7,
     image: 'cafe.jpg',
     mobile: 'scenes/mobileNone.png',
@@ -79,7 +79,7 @@ const pages = [
   },
   {
     id: 7,
-    text: 'One is on a table in front of a handsome man and another in front of a beautiful woman. You choose to approach the:',
+    text: 'One is on a table in front of a handsome man and another in front of a beautiful woman. You choose to approach the...',
     nextPage: 8,
     image: 'cafe.jpg',
     mobile: 'scenes/mobileNone.png',
@@ -108,7 +108,7 @@ const pages = [
   },
   {
     id: 9,
-    text: 'You decided to approach the man, and you walk to the table and say:',
+    text: 'You decided to approach the man, and you walk to the table and say...',
     nextPage: 10,
     image: 'cafe.jpg',
     mobile: 'scenes/mobileNone.png',
@@ -128,7 +128,7 @@ const pages = [
         nextPage: 11
       },
       {
-        text: 'Just sit down without saying a word',
+        text: 'Just sit down',
         score: 0,
         nextPage: 12
       },
@@ -177,7 +177,7 @@ const pages = [
   },
   {
     id: 15,
-    text: 'He is reading a book, has a half empty cup of black coffee on the table, and a hardly touched bagel, you try to breach the silence by asking a question:',
+    text: 'He is reading a book, has a half empty cup of black coffee on the table, and a hardly touched bagel, you try to breach the silence by asking a question...',
     nextPage: 16,
     image: 'cafe.jpg',
     mobile: 'scenes/mobileNone.png',
@@ -237,7 +237,7 @@ const pages = [
   },
   {
     id: 20,
-    text: 'After a while you can see the conversation is getting to a standstill. You decide that you need some bff assistance and excuse yourself from the table.',
+    text: 'After a while you can see the conversation is getting to a standstill. You decide that you need some BFF assistance and excuse yourself from the table.',
     nextPage: 21,
     image: 'cafe.jpg',
     mobile: 'scenes/mobileNone.png',
@@ -260,7 +260,7 @@ const pages = [
   },
   {
     id: 22,
-    text: 'On your way back to the table, as well as considering getting a new BFF, you can see Sam is about to get up. You try and get yourself back into conversation by saying:',
+    text: 'On your way back to the table, as well as considering getting a new BFF, you can see Sam is about to get up. You try and get yourself back into conversation by saying...',
     nextPage: 23,
     image: 'cafe.jpg',
     mobile: 'scenes/mobileNone.png',
@@ -320,7 +320,7 @@ const pages = [
   },
   {
     id: 27,
-    text: 'You are considering all your options and hoping that it is the right decision you ask:',
+    text: 'You are considering all your options and hoping that it is the right decision you say...',
     nextPage: 28,
     image: 'cafe.jpg',
     mobile: 'scenes/mobileNone.png',
@@ -380,7 +380,7 @@ const pages = [
   },
   {
     id: 32,
-    text: 'Then Sam leaves the cafe, and you were by yourself, feeling excited and proud of yourself for at least daring to take a chance. Now the question is:',
+    text: 'Then Sam leaves the cafe, and you were by yourself, feeling excited and proud of yourself for at least daring to take a chance. Now the question is...',
     nextPage: 33,
     image: 'cafe.jpg',
     mobile: 'scenes/mobileNone.png',
@@ -404,7 +404,7 @@ const pages = [
 /////Woman Story line
 {
     id: 34,
-    text: 'You decided to approach the woman, and you walk to the table and say:',
+    text: 'You decided to approach the woman, and you walk to the table and say...',
     nextPage: 35,
     image: 'cafe.jpg',
     mobile: 'scenes/mobileNone.png',
@@ -424,7 +424,7 @@ const pages = [
         nextPage: 36
       },
       {
-        text: 'Just sit down without saying a word',
+        text: 'Just sit down',
         score: 0,
         nextPage: 37
       },
@@ -473,7 +473,7 @@ const pages = [
   },
   {
     id: 40,
-    text: 'She is reading a book, has a half empty cup of black coffee on the table, and a hardly touched bagel, you try to breach the silence by asking a question:',
+    text: 'She is reading a book, has a half empty cup of black coffee on the table, and a hardly touched bagel, you try to breach the silence by asking a question...',
     nextPage: 41,
     image: 'cafe.jpg',
     mobile: 'scenes/mobileNone.png',
@@ -533,7 +533,7 @@ const pages = [
   },
   {
     id: 45,
-    text: 'After a while you can see the conversation is getting to a standstill. You decide that you need some bff assistance and excuse yourself from the table.',
+    text: 'After a while you can see the conversation is getting to a standstill. You decide that you need some BFF assistance and excuse yourself from the table.',
     nextPage: 46,
     image: 'cafe.jpg',
     mobile: 'scenes/mobileNone.png',
@@ -556,7 +556,7 @@ const pages = [
   },
   {
     id: 47,
-    text: 'On your way back to the table, as well as considering getting a new BFF, you can see Sam is about to get up. You try and get yourself back into conversation by saying:',
+    text: 'On your way back to the table, as well as considering getting a new BFF, you can see Sam is about to get up. You try and get yourself back into conversation by saying...',
     nextPage: 48,
     image: 'cafe.jpg',
     mobile: 'scenes/mobileNone.png',
@@ -616,7 +616,7 @@ const pages = [
   },
   {
     id: 52,
-    text: 'You are considering all your options and hoping that it is the right decision you ask:',
+    text: 'You are considering all your options and hoping that it is the right decision you say...',
     nextPage: 53,
     image: 'cafe.jpg',
     mobile: 'scenes/mobileNone.png',
@@ -676,7 +676,7 @@ const pages = [
   },
   {
     id: 57,
-    text: 'Then Sam leaves the cafe, and you were by yourself, feeling excited and proud of yourself for at least daring to take a chance. Now the question is:',
+    text: 'Then Sam leaves the cafe, and you were by yourself, feeling excited and proud of yourself for at least daring to take a chance. Now the question is...',
     nextPage: 58,
     image: 'cafe.jpg',
     mobile: 'scenes/mobileNone.png',
