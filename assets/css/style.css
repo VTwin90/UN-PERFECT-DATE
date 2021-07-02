@@ -45,7 +45,7 @@ header {
 
 /*Index Hero Image */
 .logo {
-    max-width: 20%;
+    max-width: 80%;
     height: fixed;
 }
 
@@ -303,14 +303,15 @@ header {
 }
 
 @media only screen and (min-width: 1020px) {
-   /* .logo {
-        max-width: 25%;
-    } */
+   .logo {
+        max-width: 45%;
+    } 
+
     #startbtn,
     #howtoplaybtn,
     #contactbtn,
     #tryAgainBtn {
-        max-width: 20%;
+        max-width: 40%;
     }
 
 }
@@ -339,10 +340,10 @@ header {
      #mobile {
         width: auto;
     }
-/*
+
     .logo {
-        max-width: 15%;
-    } */
+        max-width: 22%;
+    }
 }
 
 @media (orientation: landscape) {
