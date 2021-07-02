@@ -45,7 +45,7 @@ header {
 
 /*Index Hero Image */
 .logo {
-    max-width: 80%;
+    max-width: 70%;
     height: fixed;
 }
 
@@ -297,7 +297,7 @@ header {
 
 @media only screen and (min-width: 1020px) {
     .logo {
-        max-width: 45%;
+        max-width: 30%;
     }
 
     #startbtn,
