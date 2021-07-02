@@ -23,6 +23,7 @@ body {
     height: 100%;
 }
 
+/*Alert Headbanner*/
 header {
     background-color: #BDC022;
 }
@@ -42,6 +43,13 @@ header {
         0 -1px #013D60;
 }
 
+/*Index Hero Image */
+.logo {
+    max-width: 70%;
+    height: auto;
+}
+
+/*Characters*/
 #avatar {
     z-index: 1;
     background-position: center center;
@@ -53,6 +61,7 @@ header {
     top: 40%;
 }
 
+/*Mobile Gif*/
 #mobile {
     position: absolute;
     background-position: center center;
@@ -62,11 +71,7 @@ header {
     object-fit: cover;
 }
 
-.logo {
-    max-width: 80%;
-    height: auto;
-}
-
+/*Background Scenes*/
 #scene {
     background-position: center center;
     background-repeat: no-repeat;
@@ -76,6 +81,8 @@ header {
     margin: auto;
 }
 
+
+/*Button Stylings*/
 .btnContainer {
     width: 800px;
     max-width: 80%;
@@ -88,22 +95,6 @@ header {
     display: block;
     margin-left: auto;
     margin-right: auto
-}
-
-#text {
-    color: #FFFFFF;
-    font-family: 'Montserrat', sans-serif;
-    background-color: #0A6CA3;
-    opacity: 0.9;
-    max-width: 80%;
-    padding: 5%;
-    border-radius: 5px;
-    margin-top: 50px;
-    margin-bottom: 10px;
-    text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 #startbtn,
@@ -158,26 +149,32 @@ header {
     background-image: linear-gradient(135deg, #0A6CA3 5%, #0C81C2 15%, #2FE3FE 50%, #FFFFFF 100%);
 }
 
+/*Text Container*/
+#text {
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #0A6CA3;
+    opacity: 0.9;
+    max-width: 80%;
+    padding: 5%;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .fixedBottom {
     margin-left: auto;
     margin-right: auto;
 }
 
+/*Modal*/
 .modal-content {
     background-color: #013D60;
     color: #FFFFFF;
-    justify-content: center;
-}
-
-/*
-.mx-auto {
-    padding-right: 10%;
-}
-*/
-
-.image-container {
-    display: flex;
-    align-items: center;
     justify-content: center;
 }
 
@@ -204,6 +201,19 @@ header {
     background-image: linear-gradient(135deg, #0A6CA3 5%, #0C81C2 15%, #2FE3FE 50%, #FFFFFF 100%);
 }
 
+#socials {
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 8%;
+}
+
+/* End Image */
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+}
 
 /* End Pages */
 #end-text {
@@ -219,17 +229,10 @@ header {
     font-size: 20px;
 }
 
-.img-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
 /*  Media Screens*/
 @media only screen and (min-width: 100px) {
     .logo {
-        max-width: 100%;
+        max-width: 80%;
     }
     #mobile {
         width: -webkit-fill-available;
@@ -239,7 +242,7 @@ header {
 
 @media only screen and (min-width: 300px) {
     .logo {
-        max-width: 100%;
+        max-width: 80%;
     }
     #mobile {
         width: -webkit-fill-available;
@@ -253,7 +256,7 @@ header {
     }
 
     .logo {
-        max-width: 80%;
+        max-width: 60%;
     }
 
     #startbtn,
@@ -279,7 +282,7 @@ header {
 
 @media only screen and (min-width: 980px) {
     .headbanner {
-        font-size: 140%;
+        font-size: 100%;
     }
 
     #startbtn,
@@ -289,11 +292,15 @@ header {
         max-width: 30%;
     }
 
+    .logo {
+        max-width: 30%;
+    }
+
 }
 
 @media only screen and (min-width: 1500px) {
     .headbanner {
-        font-size: 180%;
+        font-size: 150%;
     }
 
     .text {
@@ -304,7 +311,7 @@ header {
     #howtoplaybtn,
     #contactbtn,
     #tryAgainBtn {
-        max-width: 25%;
+        max-width: 30%;
     }
      #mobile {
         width: auto;
