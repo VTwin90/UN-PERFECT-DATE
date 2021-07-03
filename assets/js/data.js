@@ -106,6 +106,8 @@ const pages = [
       }
     ]
   },
+
+  //Man Storyline
   {
     id: 9,
     text: 'You decided to approach the man, and you walk to the table and say...',
@@ -401,7 +403,7 @@ const pages = [
     ]
   },
 
-/////Woman Story line
+/////Woman Storyline
 {
     id: 34,
     text: 'You decided to approach the woman, and you walk to the table and say...',
