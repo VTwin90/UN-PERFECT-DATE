@@ -198,7 +198,10 @@ Included in the **game** is:
 ### **Frameworks, Libraries & Programs**
 
 * [Bootstrap](https://getbootstrap.com/ "Bootstrap") - used to create the layout of the project.
-* [Figma](https://www.figma.com/ "Figma") - used to create the projects wireframes, designs and logo.
+* [Figma](https://figma.com/ "Figma") - used to create the projects wireframes, designs and logo.
+* [Canva](https://canva.com// "Canva") - used to create the design for mobile gif.
+* [TextingStory Chat Story Maker](https://textingstory.com/ "TextingStory") - used to create the content and gif for mobile animation. 
+* [Ezgif](https://ezgif.com/loop-count "Ezgif") - used to make the mobile gif loop only once.
 * [Gitpod](https://www.gitpod.io/ "Gitpod") - used to develop the website.
 * [GitHub](https://github.com/ "GitHub") - used to host the project.
 * [Git](https://git-scm.com/) -used for version control.
@@ -211,6 +214,8 @@ Included in the **game** is:
 * [FavIcon](https://favicon.io/) -used for compressing logo into favIcons.
 * [Pixton](https://app.pixton.com/) -used for creating characters.
 * [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools) -used to inspect page elements, test different CSS styles, debug issues and responsiveness.
+* [Responsive Design Checker](https://responsivedesignchecker.com/) -used to check responsiveness.
+* [Techsini](http://techsini.com/multi-mockup/index.php) -used to create the Mock up image in this README.
 
 ## **Testing**
 ***
