@@ -82,6 +82,12 @@ L. 404 page| 2 | 4
 
 ### **What is needed now and in the future?**
 
+* The developer wants an aesthetically pleasing and fun game to reinforce the experience and to showcase their potential and growth. There will be a landing page/home page to grab attention, with options to start the game, how to play, and contacting the developer. A second page will be  game page which will then be changing throughout the game. A third page will be for the ending page, where it will change based on the ending. 
+
+* The owner could have their needs and more fulfilled by using a mobile first approach to a fully responsive website which would allow for easy navigation, use and no diminished experiences on all viewport sizes.
+
+* Other features further down the line will allow the website to provide a more complete user experience by incorporating more content, characters, music and other elements(text animation) to liven up the project even more. 
+
 #### [Back to top](<#contents>)
 
 ### **Website Structure**
