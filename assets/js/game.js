@@ -1,5 +1,6 @@
-const optionButtonsElement = document.getElementById('option-buttons');
+//Code inspired by https://www.youtube.com/watch?v=R1S_NhKkvGA, code: https://codepen.io/WebDevSimplified/pen/xoKZbd
 
+const optionButtonsElement = document.getElementById('option-buttons');
 
 let state = {};
 
