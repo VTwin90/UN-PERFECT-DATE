@@ -109,7 +109,7 @@ The theme is a playful visual novel game, with animated characters of the game w
 
 ### **Color Scheme**
 
-The general color scheme is different color shades of blue and white. With some color details consistent of yellow, green and black. These colors will create a consistent style for the game. There are also other colors; from the characters and image backgrounds for the game.
+The general color scheme is different color shades of blue and white. With some color details consistent of yellow and black. These colors will create a consistent style for the game. There are also other colors; from the characters and image backgrounds for the game.
 
 ![Color Scheme](assets/images/readme/colorscheme.png)
 
