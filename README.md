@@ -92,6 +92,10 @@ L. 404 page| 2 | 4
 
 ### **Website Structure**
 
+This website will use three pages, one for landing page, second for the game itself, and third for the ending page. This is all due to javascript being able to change content and layout easily. This game will also focus on mobile first design. 
+
+Upon loading the page the user will be directed to the home page (index.html) where they will get options to start the game, how to play and contacting the developer. Then a game page(game.html) that takes you through the game itself, with text boxes, and options buttons, as well as characters and backgrounds to set an atmosphere. At last an ending page (end.html) which will give users different endings based on scores, as well as a try again button and contact button. For simplistic use and user experience.  
+
 #### [Back to top](<#contents>)
 
 ### **Design Choices from UXD**
