@@ -56,7 +56,6 @@ function selectOption(option) {
         state.score = state.score + option.score;
         showPage(nextPageId);
     }
-    console.log(state.score);
 }
 
 //Function for deciding which story ending should be picked, based on users scores.
