@@ -121,3 +121,50 @@ Tests Covering story:
 * TC007
 * TC008
 * TCO10
+
+# Issues and Resolutions
+
+## Image Responsiveness:
+
+**Issue:**
+
+The background images was getting either stretched or not covering the device.
+
+**Resolution:**
+* Add styling html/body height of 100%.
+* Add stylings to scene:  background-repeat: no-repeat; background-size: cover; height: 100%; object-fit: cover; margin: auto;
+
+## Text box container:
+
+**Issue:**
+The text box container was in some cases empty but still visible on other pages. 
+
+**Resolution:**
+* Fixed by removing btns and containers in game.js function showPage(pageIndex), and adding text container or btn when needed in the game. Code: optionButtonsElement.innerHTML = ''; textContainer.innerHTML = '';.
+
+## Ending:
+
+**Issue:**
+In the consol, every time the click event happened in the game, there was a massive number of clicks/runs.  
+
+**Resolution:**
+Fixed this by adding some code to the function showPage(pageIndex), in the if (page.options.length === 0). Like: 
+
+* const textContainerClone = textContainer.cloneNode(true);
+* textContainerClone.appendChild(text);
+* textContainer.replaceWith(textContainerClone);
+
+## Changing Scenes: 
+
+**Issue:**
+How to change scenes throughout the story.
+
+**Resolution:**
+This got solved by adding this to function showPage(pageIndex):
+* document.getElementById('scene').src = 'assets/images/scenes/' + page.image;
+* and adding image: 'street.jpg' to data.js const pages.
+
+# Lighthouse Report Mobile & Desktop
+
+![lighthouse report mobile]()
+![lighthouse report desktop]()
