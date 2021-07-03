@@ -118,7 +118,7 @@ The general color scheme is different color shades of blue and white. With some 
 The images is consistent of: 
 1. Characters, which the developer has created through Pixton.
 2. Backgrounds, which is taken from Unsplash.
-3. Mobile, which the developer has created through Figma.
+3. Mobile, which the developer has created through a mix of TextingStory Chat Story Maker, Canva and Figma.
 
 ### **Typography**
 
