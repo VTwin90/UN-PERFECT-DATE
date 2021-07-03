@@ -133,6 +133,23 @@ To keep a consistent, playful and modern style, and for easy readability, the fo
 
 ### **Design changes**
 
+#### General:
+* Changed from having two colors on the landing page and ending page to one color. 
+* Kept the endings similar in design.
+
+#### Buttons:
+* Add linear-gradient on button hover over all buttons on the game (135deg, #0A6CA3 5%, #0C81C2 15%, #2FE3FE 50%, #FFFFFF 100%);
+* Decided to use the same color palette on all buttons.
+
+#### Socials:
+* Add linear-gradient on when you hover over the socials, and made them similar to the button stylings as well as rounded. 
+ 
+#### Game:  
+* Moved characters to the center, and further in the front.
+* No arrow on text-box. 
+* Moved buttons further down on layout to get more background image for atmosphere experience. 
+* Changed layout on mobile animation, and some design. As well as having it more on the top corner on bigger devices. Also having a continue button so users get a choice to see the full animation or skip it. 
+
 #### [Back to top](<#contents>)
 
 ## **Features**
