@@ -219,6 +219,13 @@ Included in the **game** is:
 
 ## **Testing**
 ***
+Testing results can be found **[here](TESTING.md)**.
+
+HTML Code must pass through the **[W3C HTML Validator](https://validator.w3.org/ "W3C HTML Validator")**.
+
+CSS Code must pass through the **[W3C CSS Validator](https://jigsaw.w3.org/css-validator/ "W3C CSS Validator")**.
+
+JavaScript Code must pass through the **[JSHint Validator](https://jshint.com/ "JSHint Validator")**.
 
 #### [Back to top](<#contents>)
 
