@@ -178,6 +178,12 @@ Included in the **game** is:
 
 ### **Features Left to Implement**
 
+* Add music for user experience.
+* Add text animation to make the text give an experience as well. 
+* Add more content, storylines, characters and scenes. 
+* Add more different endings, as well as design. 
+* Add a more designed successful sent message when sending a message from the modal form. 
+
 #### [Back to top](<#contents>)
 
 ## **Technologies**
