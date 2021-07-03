@@ -46,7 +46,7 @@ header {
 /*Index Hero Image */
 .logo {
     max-width: 70%;
-    height: fixed;
+    height: auto;
 }
 
 /*Characters*/
@@ -80,7 +80,6 @@ header {
     object-fit: cover;
     margin: auto;
 }
-
 
 /*Button Stylings*/
 .btnContainer {
@@ -178,6 +177,7 @@ header {
     justify-content: center;
 }
 
+/* Social Links customised from: https://github.com/nemixu/Milestone1*/
 .social-links li a i {
     width: 52px;
     height: 52px;
@@ -231,7 +231,6 @@ header {
 
 /*  Media Screens*/
 @media only screen and (min-width: 100px) {
-
     #mobile {
         width: 80%;
         height: 90%;
@@ -246,7 +245,6 @@ header {
 
 
 @media only screen and (min-width: 300px) {
-   
     #mobile {
         width: 80%;
         height: 90%;
@@ -256,12 +254,10 @@ header {
 
     .btn-grid {
         margin-bottom: 0%;
-    }
-    
+    }  
 }
 
 @media only screen and (min-width: 500px) {
-
     .headbanner {
         font-size: 120%;
     }
@@ -278,11 +274,9 @@ header {
         height: 70%;
         padding: 0;
     }
-
 }
 
 @media only screen and (min-width: 768px) {
-
     #end-text {
         padding: 0 15%;
         font-size: 200%;
@@ -308,7 +302,6 @@ header {
     .logo {
         max-width: 50%;
     } 
-
 }
 
 @media only screen and (min-width: 1020px) {
@@ -326,7 +319,6 @@ header {
     .btn {
         width: 50%;
     }
-
 }
 
 @media only screen and (min-width: 1500px) {
