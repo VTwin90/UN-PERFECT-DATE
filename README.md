@@ -147,6 +147,9 @@ To keep a consistent, playful and modern style, and for easy readability, the fo
 #### Game:  
 * Moved characters to the center, and further in the front.
 * No arrow on text-box. 
+* No name tags on characters.
+* Changed street background to a larger image.
+* Changed scenes from 3 to 2.
 * Moved buttons further down on layout to get more background image for atmosphere experience. 
 * Changed layout on mobile animation, and some design. As well as having it more on the top corner on bigger devices. Also having a continue button so users get a choice to see the full animation or skip it. 
 
