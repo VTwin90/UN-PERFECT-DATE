@@ -278,18 +278,55 @@ The live link for the site is here: **[https://vtwin90.github.io/UN-PERFECT-DATE
 
 ### **Code**
 
+Game inspiration from the Text Adventure game by Web Dev Simplified: 
+* Video: https://www.youtube.com/watch?v=R1S_NhKkvGA 
+* Code: https://codepen.io/WebDevSimplified/pen/xoKZbd
+
+Social links design adapted from: 
+* https://github.com/nemixu/Milestone1
+
+Sending message interactivity from EmailJS and CI Tutorial:
+* https://www.emailjs.com/docs/
+
+Full Page Image:
+* https://www.w3schools.com/howto/howto_css_full_page.asp
+
+Learning about changing background scenes: 
+* https://thisinterestsme.com/change-src-image-javascript/
+
+Learning about URLSearchParams:
+* https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams
+
+General:
+* https://www.w3schools.com
+* https://css-tricks.com
+* https://getbootstrap.com/
+* https://developer.mozilla.org/
+
 ### **Media & Content**
 **Characters:** Created with Pixton avatar generator and characterised by developer. 
 * https://app.pixton.com/  
 <br>
 
 **Background images:** Taken from Unsplash. 
-* https://unsplash.com/photos/8oc7EtRZEL8
-* https://unsplash.com/photos/wz8dawTTRJo
+* https://unsplash.com/photos/DXIYEVJdI1Q
 * https://unsplash.com/photos/H7xTpvBjJS4
 
 Storyline, idea and all other content are owned by the site owner.
 
 ### **Acknowledgments**
+
+I would like thank my mentor **[Maranatha Ilesanmi](https://github.com/mbilesanmi)** for all help throughout our project calls.
+
+Thanks to graduate CI student **[Daisy McGirr](https://github.com/Daisy-McG)** for letting me use her test template and structure for making my own testing document.
+
+Thanks to the **CI Slack Community** for feedback, motivation and assitance. 
+
+Also a thank you to my family and friends, who have helped me throughout this project with motivation, help, feedback and testing.
+
+**This project is for educational use only and was created for the Code Institute Module of User Centric Front End Development.**
+
+**Created by Vanja Torp 2021**
+
 
 #### [Back to top](<#contents>)
