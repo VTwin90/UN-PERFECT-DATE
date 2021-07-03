@@ -1,4 +1,4 @@
- Test Cases and Execution Report
+ # Test Cases and Execution Report
 
 ![test result screenshot](assets/images/testing/testResult1.jpg)
 ![test result screenshot](assets/images/testing/testResult2.jpg)
@@ -142,7 +142,7 @@ The text box container was in some cases empty but still visible on other pages.
 **Resolution:**
 * Fixed by removing btns and containers in game.js function showPage(pageIndex), and adding text container or btn when needed in the game. Code: optionButtonsElement.innerHTML = ''; textContainer.innerHTML = '';.
 
-## Ending:
+## AddEventListener
 
 **Issue:**
 In the consol, every time the click event happened in the game, there was a massive number of clicks/runs.  
