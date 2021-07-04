@@ -5,7 +5,7 @@ This is the second milestone project from CI with a focus on HTML, CSS and JavaS
 
 A deployed link to the website can be found **[here](https://vtwin90.github.io/UN-PERFECT-DATE/)**.
 
-![Mockup](assets/images/mockup.png)
+![Mockup](assets/images/readme/mockup.jpg)
 ## **Contents**
 ***
 - [**User Experience (UX)**](<#user-experience-(ux)>)
@@ -218,7 +218,7 @@ Included in the **game** is:
 * [Pixton](https://app.pixton.com/) -used for creating characters.
 * [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools) -used to inspect page elements, test different CSS styles, debug issues and responsiveness.
 * [Responsive Design Checker](https://responsivedesignchecker.com/) -used to check responsiveness.
-* [Techsini](http://techsini.com/multi-mockup/index.php) -used to create the Mock up image in this README.
+* [Techsini](https://techsini.com/multi-mockup/) -used to create the Mock up image in this README.
 
 ## **Testing**
 ***
