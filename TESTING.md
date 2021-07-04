@@ -7,14 +7,14 @@
 ![test result screenshot](assets/images/testing/testResult5.jpg)
 ![test result screenshot](assets/images/testing/testResult6.jpg)
 
-Full downloadable excel document can be found [here](assets/images/testing/testResults.xlsx).
+A full downloadable excel document can be found [here](assets/images/testing/testResults.xlsx).
 
-Please note these results are a .xlsx file and will require excel, google docs or a compatible program to open the file.
+Please note these results are a .xlsx file and will require excel, google docs, or a compatible program to open the file.
 
 ## User Story Testing
 
 ### User Story:
-> As a first time user I want to be able to navigate through the whole site smoothly.
+> As a first-time user I want to be able to navigate through the whole site smoothly.
 
 Tests Covering story:
 * TC007
@@ -24,14 +24,14 @@ Tests Covering story:
 * TCO11
 
 ### User Story:
-> As a first time user I want to understand the purpose of the site upon loading it.
+> As a first-time user I want to understand the purpose of the site upon loading it.
 
 Tests Covering story:
 * TC008
 
 
 ### User Story:
-> As a first time user I want to be able to easily play the game on any device and view content clearly.
+> As a first-time user I want to be able to easily play the game on any device and view content.
 
 Tests Covering story:
 * TC004
@@ -43,7 +43,7 @@ Tests Covering story:
 * TCO10
 
 ### User Story:
-> As a first time user I want to easily be able to contact the developer for more information, feedback, issues or queries.
+> As a first-time user I want to easily be able to contact the developer for more information, feedback, issues, or queries.
 
 Tests Covering story:
 * TC007
@@ -51,33 +51,33 @@ Tests Covering story:
 * TCO10
 
 ### User Story:
-> As a first time user I want to have instructions on how to play the game so that I can easily understand the rules.
+> As a first-time user I want to have instructions on how to play the game so that I can easily understand the rules.
 
 Tests Covering story:
 * TC008
 
 
 ### User Story:
-> As a first time user I want to be able to start a game when I am ready.
+> As a first-time user I want to be able to start a game when I am ready.
 
 Tests Covering story:
 * TC008
 
 
 ### User Story:
-> As a first time user I want a way to start a new game when the current game has ended.
+> As a first-time user I want a way to start a new game when the current game has ended. 
 
 Tests Covering story:
 * TCO10
 
 ### User Story:
-> As a first time user I want to be able to access the games external social accounts.
+> As a first-time user I want to be able to access the game's external social accounts.
 
 Tests Covering story:
 * TC007
 
 ### User Story:
-> As a first time user I want to be able to enjoy an interactive game that is fun and is replayable.
+> As a first-time user I want to be able to enjoy an interactive game that is fun and is replayable.
 
 Tests Covering story:
 * TC008
@@ -85,7 +85,7 @@ Tests Covering story:
 * TC010
 
 ### User Story:
-> As a site owner I want to showcase the skills I have learnt in HTML, CSS and JavaScript.
+> As a site owner I want to showcase the skills I have learned in HTML, CSS, and JavaScript.
 
 Tests Covering story:
 * TC001-TC011
@@ -115,7 +115,7 @@ Tests Covering story:
 * TC001-TC011
 
 ### User Story:
-> As a site owner I want users to be able to contact the developer for collaboration, queries, feedback and network.
+> As a site owner I want users to be able to contact the developer for collaboration, queries, feedback, and network.
 
 Tests Covering story:
 * TC007
@@ -128,16 +128,16 @@ Tests Covering story:
 
 **Issue:**
 
-The background images was getting either stretched or not covering the device.
+The background images were getting either stretched or not covering the device.
 
 **Resolution:**
 * Add styling html/body height of 100%.
-* Add stylings to scene:  background-repeat: no-repeat; background-size: cover; height: 100%; object-fit: cover; margin: auto;
+* Add stylings to scene: background-repeat: no-repeat; background-size: cover; height: 100%; object-fit: cover; margin: auto;
 
-## Text box container:
+## Textbox container:
 
 **Issue:**
-The text box container was in some cases empty but still visible on other pages. 
+The textbox container was in some cases empty but still visible on other pages. 
 
 **Resolution:**
 * Fixed by removing btns and containers in game.js function showPage(pageIndex), and adding text container or btn when needed in the game. Code: optionButtonsElement.innerHTML = ''; textContainer.innerHTML = '';.
@@ -145,7 +145,7 @@ The text box container was in some cases empty but still visible on other pages.
 ## AddEventListener
 
 **Issue:**
-In the consol, every time the click event happened in the game, there was a massive number of clicks/runs.  
+In the console, every time the click event happened in the game, there was a massive number of clicks/runs.  
 
 **Resolution:**
 Fixed this by adding some code to the function showPage(pageIndex), in the if (page.options.length === 0). Like: 
