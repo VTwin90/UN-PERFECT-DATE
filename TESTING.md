@@ -166,5 +166,4 @@ This got solved by adding this to function showPage(pageIndex):
 
 # Lighthouse Report Mobile & Desktop
 
-![lighthouse report mobile]()
-![lighthouse report desktop]()
+![lighthouse report mobile and desktop](assets/images/testing/lighthouse.png)
