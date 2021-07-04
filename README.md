@@ -168,9 +168,9 @@ Included in the **game** is:
 * **Start a game button:** To begin the game.  
 * **How To Play button:** Where the user can click and a modal shows up explaining the way to interact with the game.
 * **Contact button:** Where the user can click and a modal pops up with a contact form and socials(leads to external sites). The user can then fill out the form with email and message query (with validation, “@” and “.” etc.) and submitted to contact the developer.
-* **Modal:** A modal that lets the user know they have been successful in sending the message.
-* **Text boxes:** To showcase the story and dialogue, and in some parts the name of a character.  
-* **Backgrounds:** Three images to give a scenery for the game as the user plays along. 
+* **Alert:** An alert that lets the user know they have been successful/unsuccessful in sending the message.
+* **Text boxes:** To showcase the story and dialogue.  
+* **Backgrounds:** Two images to give a scenery for the game as the user plays along. 
 * **Option buttons:** To give the user options and make use of their decision making skills. 
 * **Try Again button:** In the end there will be an option to try the game again for a different outcome.
 * **Hidden Score:** To add points as one goes along the story to be added for different endings. 
@@ -316,9 +316,9 @@ Storyline, idea and all other content are owned by the site owner.
 
 ### **Acknowledgments**
 
-I would like thank my mentor **[Maranatha Ilesanmi](https://github.com/mbilesanmi)** for all help throughout our project calls.
+I would like to thank my mentor **[Maranatha Ilesanmi](https://github.com/mbilesanmi)** for all help throughout our project calls.
 
-Thanks to graduate CI student **[Daisy McGirr](https://github.com/Daisy-McG)** for letting me use her test template and structure for making my own testing document.
+Thanks to **[Daisy McGirr](https://github.com/Daisy-McG)** for letting me use her test template and structure for making my own testing document.
 
 Thanks to the **CI Slack Community** for feedback, motivation and assitance. 
 
