@@ -1,5 +1,4 @@
 //Code from emailjs and CI course
-
 function sendMail(contactForm) {
     emailjs.send('service_gmail', 'template_a9qjkmq', {
         'from_name': contactForm.name.value,

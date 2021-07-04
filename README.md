@@ -324,7 +324,7 @@ Thanks to the **CI Slack Community** for feedback, motivation, and assistance.
 
 Also, a thank you to my family and friends, who have helped me throughout this project with motivation, help, feedback, and testing.
 
-**This project is for educational use only and was created for the Code Institute Module of User-Centric Front End Development.**
+**This project is for educational use only and was created for the Code Institute Module of Interactive Frontend Development.**
 
 **Created by Vanja Torp 2021**
 
